@@ -21,11 +21,11 @@ class TestController(KesslerController):
 
 def main():
     game = KesslerGame()
-    scenario = Scenario(num_asteroids=1, time_limit=5)
+    scenario = Scenario(num_asteroids=0, time_limit=50)
     controller = TestController()
 
     run_step = True
-    for score, perf_list in game.run(scenario=scenario, controllers=[controller], run_step=run_step):
+    for score, perf_list in game.run(scenario=scenario, controllers=[controller], run_step=run_step, stop_on_no_asteroids=False):
         print(score.stop_reason)
         pass
 
