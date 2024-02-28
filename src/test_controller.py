@@ -56,5 +56,23 @@ def get_reward(game_state):
     return 0
 
 
+def test():
+    g = test_gen()
+    try:
+        while True:
+            print(next(g))
+    except StopIteration as exp:
+        a, b = list(exp.args[0])
+        print(a)
+    pass
+
+def test_gen():
+    i = 0
+    while i < 10:
+        yield i, -1
+        i += 1
+    return i * 100, -i * 100
+
+
 if __name__ == '__main__':
-    main()
+    test()
