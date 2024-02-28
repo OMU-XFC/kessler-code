@@ -48,7 +48,7 @@ def run():
 
 class SuperDummyController(KesslerController):
     def __init__(self):
-        self.model = PPO.load("out/50k")
+        self.model = PPO.load("out/500k")
 
     @property
     def name(self) -> str:
@@ -73,6 +73,6 @@ class SuperDummyController(KesslerController):
         return obs
 
 if __name__ == '__main__':
-    train()
+    #train()
     run()
 
