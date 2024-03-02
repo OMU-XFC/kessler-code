@@ -11,7 +11,7 @@ class KesslerEnv(gym.Env):
     def __init__(self, map_size=(1000, 800)):
         self.controller = DummyController()
         self.kessler_game = TrainerEnvironment()
-        self.scenario = Scenario(num_asteroids=2, time_limit=60, map_size=map_size)
+        self.scenario = Scenario(num_asteroids=5, time_limit=60, map_size=map_size)
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
 
@@ -19,6 +19,7 @@ class KesslerEnv(gym.Env):
             {
                 "ast_dist": spaces.Box(low=0, high=1280, shape=(5,)),
                 "ast_angle": spaces.Box(low=-180, high=180, shape=(5,)),
+                "rel_speed": spaces.Box(low=-480, high=480, shape=(5,))
             }
         )
 
@@ -29,6 +30,8 @@ class KesslerEnv(gym.Env):
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
         score, perf_list, game_state = next(self.game_generator)
+        self.save_state(game_state)
+
         return self._get_obs(game_state), self._get_info()
 
     def step(self, action):
@@ -42,14 +45,30 @@ class KesslerEnv(gym.Env):
             terminated = True
         return self._get_obs(game_state), self._get_reward(game_state), terminated, False, self._get_info()
 
+        # ひとつ前のステップにおける状態を保存する
+
+    def save_state(self, game_state):
+        self.prev_state = game_state
+
+
+
+
     def _get_obs(self, game_state):
         # For now, we are assuming only one ship (ours)
         ship = game_state['ships'][0]
+        ast_list = np.array(game_state["asteroids"])
+
         # Receive ship and game states from the game, and calculate the distances to the five nearest asteroids.
         # The state is a 10-dimensional vector, [x1, theta1, x2, theta2, ..., x5, theta5], where xi is the distance to the
         # ith nearest asteroid, and thetai is the angle to the ith nearest asteroid.
-        ast_list = np.array(game_state["asteroids"])
-        # (x,y)で表す，機体からの距離
+
+
+
+
+
+
+
+        # Dist from spaceship (d_x,d_y)
         dist_xylist = [np.array(ship['position']) - np.array(ast['position']) for ast in ast_list]
         dist_avoid_list = dist_xylist.copy()
         dist_list1 = [np.sqrt(xy[0] ** 2 + xy[1] ** 2) for xy in dist_xylist]
@@ -75,11 +94,13 @@ class KesslerEnv(gym.Env):
 
         # dist_list is a list of the 5 nearest asteroids' distance
         dist_list = np.array(dist_avoid_list[sorted2_idx][0:5])
-
+        ship_pos = np.array(ship['position'])
         angles = []
         for pos in search_list:
-            angle = np.degrees(np.arctan2(pos['position'][1], pos['position'][0])) - ship['heading']
+            angle_ast = np.degrees(np.arctan2(pos['position'][1] - ship_pos[1], pos['position'][0] - ship_pos[0]))
             # 角度を0から360度の範囲に調整
+            angle_ast = (angle_ast + 360) % 360
+            angle = angle_ast - ship['heading']
             angle = (angle + 360) % 360
             angles.append(angle)
 
@@ -88,6 +109,14 @@ class KesslerEnv(gym.Env):
         asteroids_info = np.stack((dist_list, angles), axis=1)
 
         angdiff_front = min(asteroids_info[:, 1], key=abs)
+
+        # relative speed of the asteroid and the ship
+        # relative speed of the asteroid and the ship
+        rel_pos = np.array([pos['position'] for pos in search_list]) - np.array(ship['position'])
+        rel_velocity = np.array([pos['velocity'] for pos in search_list]) - np.array(ship['velocity'])
+        rel_speed = np.array([np.dot(-relpos, rel_vel)/np.linalg.norm(relpos) for relpos, rel_vel in zip(rel_pos, rel_velocity)])
+
+
 
         # if there is any asteroid in front of the ship, fire the bullet
         fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
@@ -100,29 +129,53 @@ class KesslerEnv(gym.Env):
             padding = np.array([1280.0, 180] * num_missing).reshape(-1, 2)
             dist_padding = np.array([1280.0] * num_missing)
             angle_padding = np.array([180] * num_missing)
+            speed_padding = np.array([0] * num_missing)
             dist_list = np.concatenate((dist_list, dist_padding))
             angles = np.concatenate((angles, angle_padding))
+            rel_speed = np.concatenate((rel_speed, speed_padding))
 
 
         obs = {
             "ast_dist": dist_list,
             "ast_angle": angles,
+            "rel_speed": rel_speed,
         }
+
         return obs
 
     def _get_reward(self, game_state):
         # dist = np.linalg.norm(np.array(game_state['ships'][0]['position']))
         # return max(0, (50**2 - dist) / 50**2)
-        x, y = list(game_state['ships'][0]['position'])
-        if (x < 50 or x > 350) and (y < 50 or y > 350):
-            return 0.1
-        if (x < 25 or x > 375) and (y < 25 or y > 375):
-            return 0.3
-        if (x < 5 or x > 395) and (y < 5 or y > 395):
-            return 1
-        return 0
-        # ship_position = np.array(game_state['ships'][0]['position'])
-        # return -1 * np.linalg.norm(ship_position)
+        prev_ship = self.prev_state['ships'][0]
+        prev_ast_list = np.array(self.prev_state["asteroids"])
+        prev_astnum = len(prev_ast_list)
+        ast_list = np.array(game_state["asteroids"])
+        ship = game_state['ships'][0]
+
+        hit_ast = False
+        collision = False
+
+        # collision detection by is_respawning status
+        if prev_ship['is_respawning'] == False and ship['is_respawning'] == True:
+            collision = True
+
+        #compare the numbers of asteroids in the current and previous steps
+        # and detect the asteroids that have been destroyed
+
+        if (len(ast_list) == prev_astnum + 2 or len(ast_list) == prev_astnum - 1) and not collision:
+            hit_ast = True
+
+        reward = 0.1
+
+        if hit_ast:
+
+            reward += 1.0
+        if collision:
+            reward -= 1000.0
+        self.save_state(game_state)
+
+        return reward
+
 
     def _get_info(self):
         return {}
