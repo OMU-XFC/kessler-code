@@ -11,7 +11,7 @@ class KesslerEnv(gym.Env):
     def __init__(self, map_size=(1000, 800)):
         self.controller = DummyController()
         self.kessler_game = TrainerEnvironment()
-        self.scenario = Scenario(num_asteroids=5, time_limit=60, map_size=map_size)
+        self.scenario = Scenario(num_asteroids=10, time_limit=60, map_size=map_size)
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
 
@@ -35,7 +35,7 @@ class KesslerEnv(gym.Env):
         return self._get_obs(game_state), self._get_info()
 
     def step(self, action):
-        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, False, False
+        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, self.fire_bullet, False
         self.controller.action_queue.append(tuple([thrust, turn_rate, fire, drop_mine]))
         try:
             score, perf_list, game_state = next(self.game_generator)
@@ -119,7 +119,7 @@ class KesslerEnv(gym.Env):
 
 
         # if there is any asteroid in front of the ship, fire the bullet
-        fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
+        self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
         avoidance = np.min(dist_avoid_list)
 
         # if there are less than 5 asteroids, add dummy data

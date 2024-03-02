@@ -29,6 +29,7 @@ def train():
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+50000  Mean reward: {mean_reward:.2f}')
     #model.save("kessler-out/50k")
+    run(model)
 
     model.learn(500000)
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
@@ -38,17 +39,20 @@ def train():
     print("Saving")
     model.save("kessler-out/test3")
 
-def run():
+def run(model):
     kessler_game = KesslerGame()
-    scenario = Scenario(num_asteroids=5, time_limit=60, map_size=(1000, 800))
-    controller = SuperDummyController()
+    scenario = Scenario(num_asteroids=10, time_limit=60, map_size=(1000, 800))
+    controller = SuperDummyController(model)
     score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=False)
     # print(score)
 
 
 class SuperDummyController(KesslerController):
-    def __init__(self):
-        self.model = PPO.load("kessler-out/test3")
+    def __init__(self, model):
+        if model is None:
+            self.model = PPO.load("kessler-out/test3")
+        else:
+            self.model = model
 
     @property
     def name(self) -> str:
@@ -59,7 +63,7 @@ class SuperDummyController(KesslerController):
         action = self.model.predict(obs)
         thrust, turn = list(action[0])
 #        print(action[0])
-        return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
+        return thrust * THRUST_SCALE, turn * TURN_SCALE, self.fire_bullet, False
 
 
     def _get_obs(self, game_state):
@@ -99,7 +103,6 @@ class SuperDummyController(KesslerController):
         ship_pos = np.array(ship['position'])
         angles = []
         for pos in search_list:
-            print("speed", pos['velocity'])
             angle_ast = np.degrees(np.arctan2(pos['position'][1] - ship_pos[1], pos['position'][0] - ship_pos[0]))
             # 角度を0から360度の範囲に調整
             angle_ast = (angle_ast + 360) % 360
@@ -121,7 +124,7 @@ class SuperDummyController(KesslerController):
 
 
         # if there is any asteroid in front of the ship, fire the bullet
-        fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
+        self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
         avoidance = np.min(dist_avoid_list)
 
         # if there are less than 5 asteroids, add dummy data
@@ -134,6 +137,7 @@ class SuperDummyController(KesslerController):
             dist_list = np.concatenate((dist_list, dist_padding))
             angles = np.concatenate((angles, angle_padding))
             rel_speed = np.concatenate((rel_speed, speed_padding))
+
         obs = {
             "ast_dist": dist_list,
             "ast_angle": angles,
@@ -142,6 +146,6 @@ class SuperDummyController(KesslerController):
         return obs
 
 if __name__ == '__main__':
-    #train()
-    run()
+    train()
+    #run()
 
