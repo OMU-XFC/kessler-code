@@ -1,4 +1,3 @@
-import gymnasium as gym
 from stable_baselines3.common.env_checker import check_env
 from stable_baselines3 import A2C, PPO
 from stable_baselines3.common.evaluation import evaluate_policy
@@ -8,16 +7,16 @@ from envs import KesslerEnv
 from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
 from typing import Dict, Tuple
 import numpy as np
+from src.center_coords import center_coords
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 
-def train():
-    kessler_env = Monitor(KesslerEnv())
-#    kessler_env = make_vec_env(KesslerEnv, n_envs=4)
-#    kessler_env = DummyVecEnv([lambda: kessler_env])
+def train(scenario):
+    kessler_env = make_vec_env(KesslerEnv, env_kwargs={'scenario': scenario}, n_envs=4)
 #    check_env(kessler_env, warn=True)
-    model = PPO("MultiInputPolicy", kessler_env)
-    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
+#    model = PPO("MultiInputPolicy", kessler_env)
+    model = PPO.load("out/current", env=kessler_env)
+    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=30)
     print(f'        Mean reward: {mean_reward:.2f}')
 
     model.learn(5000)
@@ -44,6 +43,7 @@ def run(model):
     scenario = Scenario(num_asteroids=10, time_limit=60, map_size=(1000, 800))
     controller = SuperDummyController(model)
     score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=False)
+
     # print(score)
 
 
@@ -53,6 +53,7 @@ class SuperDummyController(KesslerController):
             self.model = PPO.load("kessler-out/test3")
         else:
             self.model = model
+
 
     @property
     def name(self) -> str:
@@ -69,6 +70,7 @@ class SuperDummyController(KesslerController):
     def _get_obs(self, game_state):
         # For now, we are assuming only one ship (ours)
         ship = game_state['ships'][0]
+
         ast_list = np.array(game_state["asteroids"])
 
         # Receive ship and game states from the game, and calculate the distances to the five nearest asteroids.
@@ -142,10 +144,13 @@ class SuperDummyController(KesslerController):
             "ast_dist": dist_list,
             "ast_angle": angles,
             "rel_speed": rel_speed,
+
         }
         return obs
+
 
 if __name__ == '__main__':
     train()
     #run()
+
 

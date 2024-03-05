@@ -2,4 +2,4 @@ kesslergame >= 2.0.1
 gymnasium >= 0.29.0
 torch
 numpy
-stable-baselines3[extra]
+stable-baselines3

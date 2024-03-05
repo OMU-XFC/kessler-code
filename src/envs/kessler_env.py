@@ -4,8 +4,10 @@ from gymnasium import spaces
 from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
 from typing import Dict, Tuple
 from collections import deque
+from src.center_coords import center_coords
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
+N_ASTEROIDS = 3 # obviously, fix this...
 
 class KesslerEnv(gym.Env):
     def __init__(self, map_size=(1000, 800)):
@@ -15,20 +17,22 @@ class KesslerEnv(gym.Env):
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
 
+
+
+        max_pos = max(scenario.map_size)
         self.observation_space = spaces.Dict(
             {
                 "ast_dist": spaces.Box(low=0, high=1280, shape=(5,)),
                 "ast_angle": spaces.Box(low=-180, high=180, shape=(5,)),
                 "rel_speed": spaces.Box(low=-480, high=480, shape=(5,))
-            }
-        )
 
+        )
         self.action_space = spaces.Box(low=-1, high=1, shape=(2,))
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed, options=options)
-        self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
-                                                    run_step=True, stop_on_no_asteroids=False)
+        self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller],
+                                                    stop_on_no_asteroids=False)
         score, perf_list, game_state = next(self.game_generator)
         self.save_state(game_state)
 
@@ -43,7 +47,7 @@ class KesslerEnv(gym.Env):
         except StopIteration as exp:
             score, perf_list, game_state = list(exp.args[0])
             terminated = True
-        return self._get_obs(game_state), self._get_reward(game_state), terminated, False, self._get_info()
+        return self._get_obs(game_state), self._get_reward(), terminated, False, self._get_info()
 
         # ひとつ前のステップにおける状態を保存する
 
@@ -139,6 +143,7 @@ class KesslerEnv(gym.Env):
             "ast_dist": dist_list,
             "ast_angle": angles,
             "rel_speed": rel_speed,
+
         }
 
         return obs
@@ -175,6 +180,7 @@ class KesslerEnv(gym.Env):
         self.save_state(game_state)
 
         return reward
+
 
 
     def _get_info(self):
