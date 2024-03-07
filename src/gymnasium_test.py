@@ -1,4 +1,5 @@
 import gymnasium as gym
+from kesslergame.scenario_list import *
 from stable_baselines3.common.env_checker import check_env
 from stable_baselines3 import A2C, PPO
 from stable_baselines3.common.evaluation import evaluate_policy
@@ -29,7 +30,6 @@ def train():
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+50000  Mean reward: {mean_reward:.2f}')
     #model.save("kessler-out/50k")
-    run(model)
 
     model.learn(500000)
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
@@ -37,33 +37,30 @@ def train():
     #model.save("kessler-out/500k")
 
     print("Saving")
-    model.save("kessler-out/test3")
+    model.save("kessler-out/accu_test_4")
 
-def run(model):
+def run():
     kessler_game = KesslerGame()
-    scenario = Scenario(num_asteroids=10, time_limit=60, map_size=(1000, 800))
-    controller = SuperDummyController(model)
-    score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=False)
-    # print(score)
+    scenario = ring_static_top
+    controller = SuperDummyController()
+    score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True, run_step=False)
+
+
 
 
 class SuperDummyController(KesslerController):
-    def __init__(self, model):
-        if model is None:
-            self.model = PPO.load("kessler-out/test3")
-        else:
-            self.model = model
+    def __init__(self):
+        self.model = PPO.load("kessler-out/wall_top_wrap_1_500k")
 
     @property
     def name(self) -> str:
         return "Super Dummy"
-
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         obs = self._get_obs(game_state)
         action = self.model.predict(obs)
-        thrust, turn = list(action[0])
-#        print(action[0])
-        return thrust * THRUST_SCALE, turn * TURN_SCALE, self.fire_bullet, False
+        thrust, turn, fire = list(action[0])
+        fire = (fire >= 0.5)
+        return thrust * THRUST_SCALE, turn * TURN_SCALE, fire, False
 
 
     def _get_obs(self, game_state):
@@ -120,11 +117,10 @@ class SuperDummyController(KesslerController):
         rel_pos = np.array([pos['position'] for pos in search_list]) - np.array(ship['position'])
         rel_velocity = np.array([pos['velocity'] for pos in search_list]) - np.array(ship['velocity'])
         rel_speed = np.array([np.dot(-relpos, rel_vel)/np.linalg.norm(relpos) for relpos, rel_vel in zip(rel_pos, rel_velocity)])
-        print("rel_speed", rel_speed)
 
 
         # if there is any asteroid in front of the ship, fire the bullet
-        self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
+        #self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
         avoidance = np.min(dist_avoid_list)
 
         # if there are less than 5 asteroids, add dummy data
@@ -145,7 +141,20 @@ class SuperDummyController(KesslerController):
         }
         return obs
 
+
+def train_repeat(rewards):
+    kessler_env = Monitor(KesslerEnv())
+    #    kessler_env = make_vec_env(KesslerEnv, n_envs=4)
+    #    kessler_env = DummyVecEnv([lambda: kessler_env])
+    #    check_env(kessler_env, warn=True)
+    model = PPO("MultiInputPolicy", kessler_env)
+
+    model.learn(50000)
+    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
+    print(f'+50000  Mean reward: {mean_reward:.2f}')
+    model.save("kessler-out/50k")
+
 if __name__ == '__main__':
-    train()
-    #run()
+   train()
+   #run()
 

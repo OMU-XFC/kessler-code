@@ -2,16 +2,20 @@ import numpy as np
 import gymnasium as gym
 from gymnasium import spaces
 from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
+from kesslergame.scenario_list import *
 from typing import Dict, Tuple
 from collections import deque
+
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 
 class KesslerEnv(gym.Env):
     def __init__(self, map_size=(1000, 800)):
+        # Change to train with random scenarios
+        rand = np.random.randint(0, len(Scenarios1))
         self.controller = DummyController()
         self.kessler_game = TrainerEnvironment()
-        self.scenario = Scenario(num_asteroids=10, time_limit=60, map_size=map_size)
+        self.scenario = Scenarios1[rand]
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
 
@@ -23,10 +27,14 @@ class KesslerEnv(gym.Env):
             }
         )
 
-        self.action_space = spaces.Box(low=-1, high=1, shape=(2,))
+        self.action_space = spaces.Box(low=-1, high=1, shape=(3,))  # two continuous values
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed, options=options)
+        rand = np.random.randint(0, len(Scenarios1))
+        print(rand)
+        self.scenario = Scenarios1[rand]
+
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
                                                     run_step=True, stop_on_no_asteroids=False)
         score, perf_list, game_state = next(self.game_generator)
@@ -35,7 +43,9 @@ class KesslerEnv(gym.Env):
         return self._get_obs(game_state), self._get_info()
 
     def step(self, action):
-        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, self.fire_bullet, False
+        thrust, turn_rate, = action[0] * THRUST_SCALE, action[1] * TURN_SCALE
+        fire, drop_mine = action[2] >= 0.5, False
+        self.fire_bullet = fire
         self.controller.action_queue.append(tuple([thrust, turn_rate, fire, drop_mine]))
         try:
             score, perf_list, game_state = next(self.game_generator)
@@ -57,7 +67,12 @@ class KesslerEnv(gym.Env):
         # For now, we are assuming only one ship (ours)
         ship = game_state['ships'][0]
         ast_list = np.array(game_state["asteroids"])
-
+        if len(ast_list) == 0:
+            return {
+                "ast_dist": np.array([1280.0] * 5),
+                "ast_angle": np.array([180] * 5),
+                "rel_speed": np.array([0] * 5)
+            }
         # Receive ship and game states from the game, and calculate the distances to the five nearest asteroids.
         # The state is a 10-dimensional vector, [x1, theta1, x2, theta2, ..., x5, theta5], where xi is the distance to the
         # ith nearest asteroid, and thetai is the angle to the ith nearest asteroid.
@@ -71,7 +86,6 @@ class KesslerEnv(gym.Env):
         # Dist from spaceship (d_x,d_y)
         dist_xylist = [np.array(ship['position']) - np.array(ast['position']) for ast in ast_list]
         dist_avoid_list = dist_xylist.copy()
-        dist_list1 = [np.sqrt(xy[0] ** 2 + xy[1] ** 2) for xy in dist_xylist]
 
         # よける部分に関しては画面端のことを考える，弾丸はすり抜けないから狙撃に関しては考えない
         for xy in dist_avoid_list:
@@ -108,7 +122,6 @@ class KesslerEnv(gym.Env):
         #normalized_angles = [angle / 360.0 for angle in angles]
         asteroids_info = np.stack((dist_list, angles), axis=1)
 
-        angdiff_front = min(asteroids_info[:, 1], key=abs)
 
         # relative speed of the asteroid and the ship
         # relative speed of the asteroid and the ship
@@ -119,8 +132,7 @@ class KesslerEnv(gym.Env):
 
 
         # if there is any asteroid in front of the ship, fire the bullet
-        self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
-        avoidance = np.min(dist_avoid_list)
+        #self.fire_bullet = (angdiff_front < 5 or angdiff_front > 355) and min(dist_list1) < 400
 
         # if there are less than 5 asteroids, add dummy data
         num_missing = 5 - len(asteroids_info)
@@ -165,11 +177,11 @@ class KesslerEnv(gym.Env):
         if (len(ast_list) == prev_astnum + 2 or len(ast_list) == prev_astnum - 1) and not collision:
             hit_ast = True
 
-        reward = 0.1
-
+        reward = 0.0
+        if self.fire_bullet:
+            reward -= 5.0
         if hit_ast:
-
-            reward += 1.0
+            reward += 100.0
         if collision:
             reward -= 1000.0
         self.save_state(game_state)
