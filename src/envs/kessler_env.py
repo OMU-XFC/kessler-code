@@ -93,8 +93,8 @@ def get_obs(game_state):
         "asteroid_dist": asteroid_info[:N_CLOSEST_ASTEROIDS, 0],
         "asteroid_angle": asteroid_info[:N_CLOSEST_ASTEROIDS, 1],
         "asteroid_rel_speed": asteroid_info[:N_CLOSEST_ASTEROIDS, 2],
-        "ship_heading": ship["heading"],
-        "ship_speed": ship["speed"],
+        "ship_heading": np.array([ship["heading"]]),
+        "ship_speed": np.array([ship["speed"]]),
     }
 
     return obs

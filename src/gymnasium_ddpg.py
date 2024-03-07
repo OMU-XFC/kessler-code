@@ -21,7 +21,7 @@ def train(scenario):
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'        Mean reward: {mean_reward:.2f}')
 
-    model.learn(total_timesteps=50000, log_interval=10)
+    model.learn(total_timesteps=500, log_interval=10)
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+50000  Mean reward: {mean_reward:.2f}')
     model.save("out/ddpg_50k")
@@ -31,13 +31,6 @@ def run(scenario):
     controller = SuperDummyController()
     score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller])
     # print(score)
-
-
-if __name__ == '__main__':
-    my_scenario = Scenario(num_asteroids=5, time_limit=180, map_size=(800, 800))
-    train(my_scenario)
-    run(my_scenario)
-
 
 class SuperDummyController(KesslerController):
     def __init__(self):
@@ -53,3 +46,8 @@ class SuperDummyController(KesslerController):
         thrust, turn = list(action[0])
 #        print(action[0])
         return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
+
+if __name__ == '__main__':
+    my_scenario = Scenario(num_asteroids=10, time_limit=180, map_size=(800, 800))
+    train(my_scenario)
+    run(my_scenario)
