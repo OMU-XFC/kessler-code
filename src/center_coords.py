@@ -1,15 +1,23 @@
 import numpy as np
 
 def center_coords(ship_position, ship_angle, asteroid_positions):
-    centered_asteroids = asteroid_positions - ship_position
-    centered_asteroids = c2polar(centered_asteroids)
-    # Rotate all coordinates to be relative to the front of the ship
-    centered_asteroids[:, 1] -= ship_angle
-    centered_asteroids[:, 1] = np.mod(centered_asteroids[:, 1], 360)
-    return centered_asteroids
+    # TODO - rotate relative to ship heading...
+    #ship_angle -= 90
+    #ship_angle = np.radians(ship_angle)
 
-def c2polar(positions):
-    z = positions[:, 0] + 1j * positions[:, 1]
-    rho = np.abs(z)
-    phi = np.angle(z, deg=True)
-    return np.stack([rho, phi], axis=1)
+    centered_asteroids = asteroid_positions - ship_position
+    rho, phi = c2polar(centered_asteroids[:, 0], centered_asteroids[:, 1])
+
+    # Rotate all coordinates to be relative to the front of the ship
+    #phi -= ship_angle
+    #phi = np.mod(phi, 2 * np.pi)
+    x, y = p2cart(rho, phi)
+
+    return rho, np.degrees(phi), x, y
+
+def c2polar(x, y):
+    z = x + 1j * y
+    return np.abs(z), np.angle(z)
+
+def p2cart(rho, phi):
+    return rho * np.cos(phi), rho * np.sin(phi)
