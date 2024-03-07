@@ -37,7 +37,7 @@ def train():
 
 def run():
     kessler_game = KesslerGame()
-    scenario = Scenario(num_asteroids=0, time_limit=180, map_size=(400, 400))
+    scenario = ring_static_top
     controller = SuperDummyController()
     score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=False)
     # print(score)

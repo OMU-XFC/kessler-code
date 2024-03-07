@@ -37,7 +37,7 @@ def train():
     #model.save("kessler-out/500k")
 
     print("Saving")
-    model.save("kessler-out/accu_test_4")
+    model.save("kessler-out/randoms")
 
 def run():
     kessler_game = KesslerGame()
@@ -111,7 +111,6 @@ class SuperDummyController(KesslerController):
         # normalized_angles = [angle / 360.0 for angle in angles]
         asteroids_info = np.stack((dist_list, angles), axis=1)
 
-        angdiff_front = min(asteroids_info[:, 1], key=abs)
 
         # relative speed of the asteroid and the ship
         rel_pos = np.array([pos['position'] for pos in search_list]) - np.array(ship['position'])
@@ -152,7 +151,7 @@ def train_repeat(rewards):
     model.learn(50000)
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+50000  Mean reward: {mean_reward:.2f}')
-    model.save("kessler-out/50k")
+    model.save("kessler-out/randoms")
 
 if __name__ == '__main__':
    train()

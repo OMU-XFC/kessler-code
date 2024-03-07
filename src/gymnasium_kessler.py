@@ -69,10 +69,9 @@ class SuperDummyController(KesslerController):
             "ship_speed": np.array([ship['speed']]),
             "ship_heading": np.array([ship['heading']]),
         }
-        print(obs['ship_position'])
         return obs
 
 if __name__ == '__main__':
-    train()
+    #train()
     run()
 

@@ -11,8 +11,6 @@ def asteroid_dist(self, ownship: Ship, input_data: Dict[str, Tuple]) -> float:
     for ship in ship_list:
         for ast in ast_list:
             dist_list.append(math.dist(ship['position'], ast['position']))
-            print(ast['velocity'])
-    print(dist_list)
     closest = np.argmin(dist_list)
 
 def ast_angle(ownship_position, ast_position):
