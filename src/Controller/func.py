@@ -1,6 +1,6 @@
 import math
 from typing import Tuple, Dict
-from .ship import Ship
+from kesslergame import Ship
 import numpy as np
 
 def asteroid_dist(self, ownship: Ship, input_data: Dict[str, Tuple]) -> float:
@@ -15,7 +15,7 @@ def asteroid_dist(self, ownship: Ship, input_data: Dict[str, Tuple]) -> float:
     print(dist_list)
     closest = np.argmin(dist_list)
 
-def ast_angle(ownship_position, ast_position):
+def ast_angle( ownship_position, ast_position):
     ang = np.array(ast_position) - np.array(ownship_position)
     ang = np.arctan2(ang[1], ang[0])
     return math.degrees(ang)
@@ -48,3 +48,10 @@ def angle360(angle):
     if angle < 0:
         angle += 360
     return angle
+
+
+
+def main():
+    a = 9/14 * np.log2(14/9) + 5/14 * np.log2(14/5)
+    print(a)
+
