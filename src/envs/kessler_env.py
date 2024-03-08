@@ -17,7 +17,7 @@ class KesslerEnv(gym.Env):
         self.kessler_game = TrainerEnvironment()
         self.scenario = Scenarios1[rand]
         self.game_generator = self.kessler_game.run(scenario=self.scenario, controllers=[self.controller],
-                                                    run_step=True, stop_on_no_asteroids=False)
+                                                    stop_on_no_asteroids=False)
 
         self.observation_space = spaces.Dict(
             {
