@@ -1,8 +1,8 @@
 from gymnasium.envs.registration import register
 
-from .kessler_env import KesslerEnv, get_obs
+from .kessler_env import KesslerEnv
 
-__all__ = [KesslerEnv, get_obs]
+__all__ = [KesslerEnv]
 
 register(
     id="envs/KesslerEnv-v0",
