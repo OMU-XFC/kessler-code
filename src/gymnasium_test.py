@@ -43,7 +43,7 @@ def run():
     kessler_game = KesslerGame()
     scenario = ring_static_top
     controller = SuperDummyController()
-    score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True, run_step=False)
+    score, perf_list, state = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True)
 
 
 
