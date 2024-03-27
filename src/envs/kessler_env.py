@@ -5,7 +5,7 @@ from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerContro
 from typing import Dict, Tuple
 from collections import deque
 from src.center_coords import center_coords
-from .reward.tomofuji_reward import tomofuji_reward
+from .reward.stay_alive import stay_alive_reward
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 ASTEROID_MAX_SPEED = 180
@@ -17,7 +17,7 @@ class KesslerEnv(gym.Env):
         self.controller = DummyController()
         self.kessler_game = TrainerEnvironment()
         self.scenario = scenario
-        self.reward_function = tomofuji_reward
+        self.reward_function = stay_alive_reward
         self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller])
         self.prev_state, self.current_state = None, None
 
@@ -44,7 +44,7 @@ class KesslerEnv(gym.Env):
 
     def step(self, action):
         # Just always fire, for now...
-        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, True, False
+        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, False, False
         self.controller.action_queue.append(tuple([thrust, turn_rate, fire, drop_mine]))
         try:
             score, perf_list, game_state = next(self.game_generator)

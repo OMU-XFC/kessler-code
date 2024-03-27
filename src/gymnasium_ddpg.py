@@ -17,14 +17,13 @@ def train(scenario):
 
     kessler_env = Monitor(KesslerEnv(scenario=scenario))
 #    check_env(kessler_env, warn=True)
-    model = DDPG("MultiInputPolicy", kessler_env, verbose=1,  action_noise=action_noise)
-    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
-    print(f'        Mean reward: {mean_reward:.2f}')
+    model = DDPG("MultiInputPolicy", kessler_env, verbose=False, action_noise=action_noise)
 
-    model.learn(total_timesteps=500, log_interval=10)
-    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
-    print(f'+50000  Mean reward: {mean_reward:.2f}')
-    model.save("out/ddpg_50k")
+    for i in range(100):
+        model.learn(total_timesteps=100_000)
+        mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=30)
+        print(f'... Mean reward: {mean_reward:.2f}')
+        model.save("out/current")
 
 def run(scenario):
     kessler_game = KesslerGame()
@@ -34,7 +33,7 @@ def run(scenario):
 
 class SuperDummyController(KesslerController):
     def __init__(self):
-        self.model = DDPG.load("out/ddpg_50k")
+        self.model = DDPG.load("out/current")
 
     @property
     def name(self) -> str:
@@ -42,12 +41,20 @@ class SuperDummyController(KesslerController):
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         obs = get_obs(game_state)
+        print(obs)
         action = self.model.predict(obs)
         thrust, turn = list(action[0])
-#        print(action[0])
         return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
 
+
 if __name__ == '__main__':
-    my_scenario = Scenario(num_asteroids=10, time_limit=180, map_size=(800, 800))
-    train(my_scenario)
+    my_scenario = Scenario(time_limit=180, map_size=(800, 800),
+                           asteroid_states=[{'position': (0, 0)}] * 5,
+                           ship_states=[
+                               {
+                                   'position': (400, 400),
+                                   'lives': 1
+                               }
+                           ])
+    #train(my_scenario)
     run(my_scenario)
