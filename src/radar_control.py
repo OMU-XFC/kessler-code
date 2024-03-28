@@ -50,7 +50,7 @@ class SuperDummyController(KesslerController):
 
 def main():
     n_asteroids = 10
-    my_scenario = Scenario(time_limit=300, map_size=(800, 800),
+    my_scenario = Scenario(time_limit=600, map_size=(800, 800),
                            asteroid_states=[{'position': (0, 0)}] * n_asteroids,
                            ship_states=[
                                {
