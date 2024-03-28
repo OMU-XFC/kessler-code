@@ -1,6 +1,7 @@
 import time
 from typing import Dict, Tuple
 from kesslergame import KesslerController, KesslerGame, Scenario, StopReason
+from navigation_scenario import *
 
 # See: https://github.com/ThalesGroup/kessler-game/blob/main/examples/test_controller.py
 class TestController(KesslerController):
@@ -20,59 +21,10 @@ class TestController(KesslerController):
         return "Test Controller"
 
 def main():
-    game = KesslerGame()
-
-    scenario = Scenario(num_asteroids=0, time_limit=50)
     controller = TestController()
-
-    run_step = True
-    for score, perf_list in game.run(scenario=scenario, controllers=[controller], run_step=run_step, stop_on_no_asteroids=False):
-        print(score.stop_reason)
-        pass
-    scenario = Scenario(num_asteroids=25, time_limit=50)
-    controller = TestController()
-
-    run_step = True
-
-    game_env = game.run(scenario=scenario, controllers=[controller], run_step=True)
-    while True:
-        try:
-            score, perf_list, game_state = next(game_env)
-            reward = get_reward(game_state)
-            terminated = score.stop_reason != StopReason.not_stopped
-            truncated = score.stop_reason == StopReason.time_expired
-        except StopIteration:
-            print("Done!")
-            break
-
-
-    # for score, perf_list in game.run(scenario=scenario, controllers=[controller], run_step=run_step):
-    #
-    #     print(score.stop_reason)
-    #     pass
-
-
-def get_reward(game_state):
-    return 0
-
-
-def test():
-    g = test_gen()
-    try:
-        while True:
-            print(next(g))
-    except StopIteration as exp:
-        a, b = list(exp.args[0])
-        print(a)
-    pass
-
-def test_gen():
-    i = 0
-    while i < 10:
-        yield i, -1
-        i += 1
-    return i * 100, -i * 100
+    b = benchmark(controller)
+    print(b)
 
 
 if __name__ == '__main__':
-    test()
+    main()
