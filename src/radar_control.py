@@ -63,8 +63,8 @@ class SuperDummyController(KesslerController):
 def main():
     zones = [100, 300, 500]
     frames = 30
-    train(radar_zones=zones, forecast_frames=frames, name='April3')
-#    run(scenario_F(seed=2), 'out/April3/bookmark_9')
+    #train(radar_zones=zones, forecast_frames=frames, name='April3')
+    run(scenario_D(seed=2), 'out/April3/bookmark_44')
 
 def run_benchmark():
     controller = SuperDummyController(model_name='out/10_GUNS_OFF_1S_FORECAST/9')
