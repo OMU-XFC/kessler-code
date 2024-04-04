@@ -44,7 +44,7 @@ def scenario_D(seed=None, n=32):
             'lives': 1,
         }],
         asteroid_states=asteroid_states,
-        time_limit=240,
+        time_limit=480,
         seed=seed,
     )
 
@@ -110,7 +110,7 @@ def benchmark(controller):
     game = TrainerEnvironment()
 
     n_trials = 20
-    benchmark_scenarios = [scenario_A, scenario_D, scenario_E, scenario_F]
+    benchmark_scenarios = [scenario_D]
     scores = np.zeros(shape=(len(benchmark_scenarios), n_trials), dtype=np.float64)
 
     for i, scenario in enumerate(benchmark_scenarios):

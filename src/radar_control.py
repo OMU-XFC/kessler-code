@@ -5,39 +5,30 @@ from typing import Dict, Tuple
 from kesslergame import KesslerGame, KesslerController
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
+from stable_baselines3.common.evaluation import evaluate_policy
+from stable_baselines3.common.monitor import Monitor
 
 from src.envs.radar_env import RadarEnv, get_obs
 from src.navigation_scenario import *
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 
-def train(radar_zones, forecast_frames, name, cold_start=True):
+def train(radar_zones, bumper, forecast_frames, name):
     print(f"Starting {name}...")
-    vec_env = make_vec_env(RadarEnv, n_envs=6, env_kwargs={'scenario': scenario_A()})
-    if cold_start:
-        model = PPO("MultiInputPolicy", vec_env)
-        model.save('out/temp')
+    vec_env = make_vec_env(RadarEnv, n_envs=6, env_kwargs={
+        'scenario': scenario_D(),
+        'radar_zones': radar_zones,
+        'bumper_range': bumper,
+        'forecast_frames': forecast_frames,
+    })
+    model = PPO("MultiInputPolicy", vec_env)
+    eval_env = Monitor(RadarEnv(scenario=scenario_D()))
     os.makedirs(f'out/{name}', exist_ok=True)
-    with open(f'out/{name}/data.txt', 'w', encoding='UTF-8') as f:
-        training_scenario_list = [scenario_D, scenario_E, scenario_F]
-        for i in range(1_000):
-            for scenario in training_scenario_list:
-                vec_env = make_vec_env(RadarEnv, n_envs=6, env_kwargs={
-                    'scenario': scenario(),
-                    'radar_zones': radar_zones,
-                    'forecast_frames': forecast_frames,
-                })
-                model = PPO.load('out/temp', env=vec_env)
-                model.learn(total_timesteps=324_000)
-                model.save('out/temp')
-            bench = benchmark(SuperDummyController('out/temp'))
-            f.write(f'{i},')
-            f.write(','.join([str(x) for x in bench.round(4).flatten()]))
-            f.write('\n')
-
-            bench_mean = np.mean(bench)
-            print(bench_mean)
-            model.save(f'out/{name}/bookmark_{i}')
+    for i in range(120):
+        model.learn(total_timesteps=2_000_000)
+        model.save(f'out/{name}/bookmark_{i}')
+        mean_reward, _ = evaluate_policy(model, eval_env, n_eval_episodes=30, return_episode_rewards=False)
+        print(f'{i:d} .. Mean reward: {mean_reward:.2f}')
     print("")
 
 def run(scenario, model_name):
@@ -61,10 +52,11 @@ class SuperDummyController(KesslerController):
         return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
 
 def main():
-    zones = [100, 300, 500]
-    frames = 30
-    #train(radar_zones=zones, forecast_frames=frames, name='April3')
-    run(scenario_D(seed=3), 'out/April3/bookmark_44')
+    zones = [100, 250, 400]
+    bumper = 50
+    name = 'April4'
+    train(radar_zones=zones, bumper=bumper, forecast_frames=30, name=name)
+    #run(scenario_E(seed=1), 'out/expApril3_1_0/bookmark_11')
 
 def run_benchmark():
     controller = SuperDummyController(model_name='out/10_GUNS_OFF_1S_FORECAST/9')

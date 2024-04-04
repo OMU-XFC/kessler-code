@@ -36,6 +36,9 @@ class RadarEnv(gym.Env):
                 # Bumper: 0/1 indicator for if any asteroid hitbox encroaches within the bumper_zone
                 "bumper": spaces.Box(low=0, high=1, shape=(4,)),
                 "future_bumper": spaces.Box(low=0, high=1, shape=(4,)),
+
+                # Ship speed
+                "speed": spaces.Box(low=0, high=SHIP_MAX_SPEED, shape=(1,))
             }
         )
         self.action_space = spaces.Box(low=-1, high=1, shape=(2,))
@@ -95,6 +98,7 @@ def get_obs(game_state, forecast_frames, radar_zones, bumper_range):
         "forecast": forecast,
         "bumper": bumper,
         "future_bumper": future_bumper,
+        "speed": ship_speed,
     }
 
     return obs
@@ -104,6 +108,7 @@ def get_radar(centered_asteroids, asteroid_radii, radar_zones):
     asteroid_areas = np.pi * asteroid_radii * asteroid_radii
     rho, phi = centered_asteroids[:, 0], centered_asteroids[:, 1]
 
+    rho -= asteroid_radii
     is_near = rho < radar_zones[0]
     is_medium = np.logical_and(rho < radar_zones[1], rho >= radar_zones[0])
     is_far = np.logical_and(rho < radar_zones[2], rho >= radar_zones[1])
@@ -126,14 +131,15 @@ def get_radar(centered_asteroids, asteroid_radii, radar_zones):
             mask = np.logical_and(distance_mask, angle_mask)
             total_asteroid_area = np.sum(asteroid_areas[mask])
             index = idx * 4 + jdx
-            radar_info[index] = total_asteroid_area / slice_area
+            radar_info[index] = max(1, total_asteroid_area / slice_area)
 
     return radar_info
 
 def get_bumper(centered_asteroids, asteroid_radii, bumper_range):
     rho, phi = centered_asteroids[:, 0], centered_asteroids[:, 1]
 
-    bumper_hit = (rho - asteroid_radii) < bumper_range
+    rho -= asteroid_radii
+    bumper_hit = rho < bumper_range
     is_front = np.logical_or(phi < 0.25 * np.pi, phi >= 1.75 * np.pi)
     is_left = np.logical_and(phi < 0.75 * np.pi, phi >= 0.25 * np.pi)
     is_behind = np.logical_and(phi < 1.25 * np.pi, phi >= 0.75 * np.pi)
@@ -154,13 +160,8 @@ def get_reward(obs):
     # and let reinforcement learning figure out how best to actually do that.
     # However, we do want to "gently" guide the ship to sparse areas -- if any exist.
 
-    # This function is super arbitrary. Gives a small bonus for each section of the radar which is 95%+ clear
-    near   = 0.13 * np.count_nonzero(obs['radar'][:4] < 0.05)
-    middle = 0.08 * np.count_nonzero(obs['radar'][4:8] < 0.05)
-    far    = 0.04 * np.count_nonzero(obs['radar'][8:] < 0.05)
-
-    # Max reward = 2
-    return 1 + near + middle + far
+    area_clear = np.all(obs['radar'][:8] < 0.001).astype(int)
+    return 1 + 0.1 * area_clear
 
 
 class DummyController(KesslerController):
