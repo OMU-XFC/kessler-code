@@ -5,7 +5,7 @@ from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerContro
 from typing import Dict, Tuple
 from collections import deque
 from src.center_coords import center_coords
-from .reward.stay_alive import stay_alive_reward
+from src.reward.stay_alive import stay_alive_reward
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 ASTEROID_MAX_SPEED = 180
