@@ -13,6 +13,11 @@ DEFAULT_BUMPER_RANGE = 50
 DEFAULT_FORECAST_FRAMES = 30
 
 
+## TO TEST / VERIFY:
+# - Effect of adding / removing ship speed
+# - Effect of subtracting asteroid radius from rho when building radar
+# - If time... extra radar / bumper zones tests (using an objective benchmark instead of reward function...)
+
 class RadarEnv(gym.Env):
     def __init__(self, scenario, radar_zones=None, bumper_range=DEFAULT_BUMPER_RANGE,
                  forecast_frames=DEFAULT_FORECAST_FRAMES):
@@ -108,7 +113,7 @@ def get_radar(centered_asteroids, asteroid_radii, radar_zones):
     asteroid_areas = np.pi * asteroid_radii * asteroid_radii
     rho, phi = centered_asteroids[:, 0], centered_asteroids[:, 1]
 
-    rho -= asteroid_radii
+    #rho -= asteroid_radii
     is_near = rho < radar_zones[0]
     is_medium = np.logical_and(rho < radar_zones[1], rho >= radar_zones[0])
     is_far = np.logical_and(rho < radar_zones[2], rho >= radar_zones[1])
@@ -122,7 +127,7 @@ def get_radar(centered_asteroids, asteroid_radii, radar_zones):
     middle_area = np.pi * radar_zones[1] * radar_zones[1]
     outer_area = np.pi * radar_zones[2] * radar_zones[2]
     # The area of one slice in the outer, middle, and inner donuts
-    slice_areas = [(outer_area - middle_area) / 4, (middle_area - inner_area) / 4, inner_area / 4]
+    slice_areas = [(outer_area - (middle_area + inner_area)) / 4, (middle_area - inner_area) / 4, inner_area / 4]
 
     radar_info = np.zeros(shape=(12,))
     for idx, distance_mask in enumerate([is_far, is_medium, is_near]):
@@ -131,7 +136,7 @@ def get_radar(centered_asteroids, asteroid_radii, radar_zones):
             mask = np.logical_and(distance_mask, angle_mask)
             total_asteroid_area = np.sum(asteroid_areas[mask])
             index = idx * 4 + jdx
-            radar_info[index] = max(1, total_asteroid_area / slice_area)
+            radar_info[index] = min(1, total_asteroid_area / slice_area)
 
     return radar_info
 

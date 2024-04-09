@@ -24,8 +24,8 @@ def train(radar_zones, bumper, forecast_frames, name):
     model = PPO("MultiInputPolicy", vec_env)
     eval_env = Monitor(RadarEnv(scenario=scenario_D()))
     os.makedirs(f'out/{name}', exist_ok=True)
-    for i in range(120):
-        model.learn(total_timesteps=2_000_000)
+    for i in range(12):
+        model.learn(total_timesteps=2000)
         model.save(f'out/{name}/bookmark_{i}')
         mean_reward, _ = evaluate_policy(model, eval_env, n_eval_episodes=30, return_episode_rewards=False)
         print(f'{i:d} .. Mean reward: {mean_reward:.2f}')
@@ -47,6 +47,7 @@ class SuperDummyController(KesslerController):
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         obs = get_obs(game_state=game_state, forecast_frames=30, radar_zones=[100, 300, 500], bumper_range=50)
+        print(obs)
         action = self.model.predict(obs)
         thrust, turn = list(action[0])
         return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
@@ -54,9 +55,9 @@ class SuperDummyController(KesslerController):
 def main():
     zones = [100, 250, 400]
     bumper = 50
-    name = 'April4'
-    train(radar_zones=zones, bumper=bumper, forecast_frames=30, name=name)
-    #run(scenario_E(seed=1), 'out/expApril3_1_0/bookmark_11')
+    name = 'April5_tmp'
+    #train(radar_zones=zones, bumper=bumper, forecast_frames=30, name=name)
+    run(scenario_D(seed=1), 'out/April5_tmp/bookmark_11')
 
 def run_benchmark():
     controller = SuperDummyController(model_name='out/10_GUNS_OFF_1S_FORECAST/9')
