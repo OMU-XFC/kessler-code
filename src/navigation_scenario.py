@@ -105,6 +105,26 @@ def scenario_F(seed=None, n=32):
         seed=seed,
     )
 
+def simple_scenario():
+    asteroid_states = [{
+        'position': (50, 400),
+        'angle': 0,
+        'speed': 0,
+        'size': 4
+    }]
+
+    s = Scenario(
+        map_size=(1000, 800),
+        ship_states=[{
+            'position': (200, 400),
+            'angle': 0,
+            'lives': 1,
+        }],
+        asteroid_states=asteroid_states,
+        time_limit=60,
+    )
+    return s
+
 
 def benchmark(controller):
     game = TrainerEnvironment()
