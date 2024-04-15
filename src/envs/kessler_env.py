@@ -4,8 +4,11 @@ from gymnasium import spaces
 from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
 from typing import Dict, Tuple
 from collections import deque
-from src.center_coords import center_coords
+
+from src.center_coods2 import center_coords2
 from src.reward.stay_alive import stay_alive_reward
+from src.reward.tomofuji_reward import tomofuji_reward
+from src.scenario_list import *
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 ASTEROID_MAX_SPEED = 180
@@ -17,7 +20,7 @@ class KesslerEnv(gym.Env):
         self.controller = DummyController()
         self.kessler_game = TrainerEnvironment()
         self.scenario = scenario
-        self.reward_function = stay_alive_reward
+        self.reward_function = tomofuji_reward
         self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller])
         self.prev_state, self.current_state = None, None
 
@@ -27,15 +30,15 @@ class KesslerEnv(gym.Env):
             {
                 "asteroid_dist": spaces.Box(low=0, high=max_dist, shape=(N_CLOSEST_ASTEROIDS,)),
                 "asteroid_angle": spaces.Box(low=0, high=360, shape=(N_CLOSEST_ASTEROIDS,)),
-                "asteroid_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel, shape=(N_CLOSEST_ASTEROIDS,)),
-                "ship_heading": spaces.Box(low=0, high=360, shape=(1,)),
-                "ship_speed": spaces.Box(low=0, high=SHIP_MAX_SPEED, shape=(1,)),
+                "asteroid_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel, shape=(N_CLOSEST_ASTEROIDS,))
             }
         )
-        self.action_space = spaces.Box(low=-1, high=1, shape=(2,))
+        self.action_space = spaces.Box(low=-1, high=1, shape=(3,))
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed, options=options)
+        rand = np.random.randint(0, len(Scenario_half))
+        self.scenario = Scenario_half[rand]
         self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller])
         score, perf_list, game_state = next(self.game_generator)
         self.prev_state, self.current_state = None, game_state
@@ -44,7 +47,7 @@ class KesslerEnv(gym.Env):
 
     def step(self, action):
         # Just always fire, for now...
-        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, False, False
+        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, action[2]>=0.0, False
         self.controller.action_queue.append(tuple([thrust, turn_rate, fire, drop_mine]))
         try:
             score, perf_list, game_state = next(self.game_generator)
@@ -53,7 +56,8 @@ class KesslerEnv(gym.Env):
             score, perf_list, game_state = list(exp.args[0])
             terminated = True
         self.update_state(game_state)
-        return get_obs(game_state), self.reward_function(game_state, self.prev_state), terminated, False, self._get_info()
+        obs = get_obs(game_state)
+        return obs, self.reward_function(game_state, self.prev_state, obs), terminated, False, self._get_info()
 
     def update_state(self, game_state):
         self.prev_state = self.current_state
@@ -68,7 +72,7 @@ def get_obs(game_state):
     asteroids = game_state['asteroids']
 
     asteroid_positions = np.array([asteroid['position'] for asteroid in asteroids])
-    rho, phi, x, y = center_coords(ship['position'], ship['heading'], asteroid_positions)
+    rho, phi, x, y = center_coords2(ship['position'], ship['heading'], asteroid_positions)
 
     asteroid_velocities = np.array([asteroid['velocity'] for asteroid in asteroids])
     asteroid_velocities_relative = asteroid_velocities - ship['velocity']
@@ -82,19 +86,14 @@ def get_obs(game_state):
     asteroid_info = asteroid_info[
         asteroid_info[:, 0].argsort()
     ]
-
     # Pad
     padding_len = N_CLOSEST_ASTEROIDS - asteroid_info.shape[0]
     if padding_len > 0:
-        pad_shape = (padding_len, asteroid_info.shape[1])
-        asteroid_info = np.concatenate([asteroid_info, np.empty(pad_shape)])
-
+        asteroid_info = np.concatenate([asteroid_info, np.array(padding_len * [[1000, 180, 0.0]])])
     obs = {
         "asteroid_dist": asteroid_info[:N_CLOSEST_ASTEROIDS, 0],
         "asteroid_angle": asteroid_info[:N_CLOSEST_ASTEROIDS, 1],
         "asteroid_rel_speed": asteroid_info[:N_CLOSEST_ASTEROIDS, 2],
-        "ship_heading": np.array([ship["heading"]]),
-        "ship_speed": np.array([ship["speed"]]),
     }
 
     return obs

@@ -56,8 +56,13 @@ class SuperDummyController(KesslerController):
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         obs = get_obs(game_state=game_state, forecast_frames=30, radar_zones=[100, 300, 500], bumper_range=50)
+
         action = self.model.predict(obs)
         thrust, turn = list(action[0])
+        with open("src/inout/out1.txt", 'a') as f:
+            f.write(str(obs))
+            f.write('\n')
+            f.write(f"[{thrust}, {turn}]")
         return thrust * THRUST_SCALE, turn * TURN_SCALE, False, False
 
 def main():
@@ -67,15 +72,15 @@ def main():
 #    run(scenario_F(seed=2), 'out/April3/bookmark_9')
 
 def run_benchmark():
-    controller = SuperDummyController(model_name='out/10_GUNS_OFF_1S_FORECAST/9')
+    controller = SuperDummyController(model_name='src/out/April3/bookmark_0.zip')
     results = benchmark(controller)
     print(results)
     print(np.mean(results))
 
 
 if __name__ == '__main__':
-    main()
-    #run_benchmark()
+    #main()
+    run(model_name='src/out/April3/bookmark_0.zip', scenario=scenario_F(seed=2))
 
 
 #     marker_size = 50 * (asteroid_size ** 2)
