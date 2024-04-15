@@ -44,7 +44,7 @@ def scenario_D(seed=None, n=32):
             'lives': 1,
         }],
         asteroid_states=asteroid_states,
-        time_limit=480,
+        time_limit=240,
         seed=seed,
     )
 
