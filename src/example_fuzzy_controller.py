@@ -321,14 +321,15 @@ class ExampleFuzzyController(KesslerController):
         ])
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
-        obs = get_obs(game_state, forecast_frames=30, radar_zones=[100, 250, 400], bumper_range=50)
-        fuzzy_input = np.concatenate((obs['radar'], obs['forecast']))
-        fuzzy_input = np.broadcast_to(fuzzy_input, (1, 24)) * EXTRACTION_SCALE
-        print(fuzzy_input)
-        fuzzy_output = get_output(self.fuzzy_rule, self.rule_outputs, self.weights, fuzzy_input)
-        print(fuzzy_output)
-        thrust, turn = fuzzy_output[0, 0] * THRUST_SCALE, fuzzy_output[0, 1] * TURN_SCALE
-        return thrust, turn, False, False
+        # obs = np.random.random(size=(N_ATTRIBUTES,))
+        obs = np.array(ship_state['position']) / MAP_SIZE
+        affinity = get_affinity(obs, self.fuzzy_rule)
+        weighted_votes = affinity[:, np.newaxis] * self.rule_outputs
+        total_weight = np.sum(affinity)
+        final_output = np.sum(weighted_votes, axis=0) / total_weight
+        thrust, turn, fire, mine = final_output[0], final_output[1], final_output[2] > 0.5, final_output[3] > 0.5
+        return thrust, turn, fire, mine
+
 
     @property
     def name(self) -> str:

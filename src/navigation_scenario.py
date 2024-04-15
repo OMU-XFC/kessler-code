@@ -126,11 +126,10 @@ def simple_scenario():
     return s
 
 
-def benchmark(controller):
+def benchmark(controller, n_trials=20):
     game = TrainerEnvironment()
 
-    n_trials = 20
-    benchmark_scenarios = [scenario_D]
+    benchmark_scenarios = [scenario_D, scenario_E, scenario_F]
     scores = np.zeros(shape=(len(benchmark_scenarios), n_trials), dtype=np.float64)
 
     for i, scenario in enumerate(benchmark_scenarios):
