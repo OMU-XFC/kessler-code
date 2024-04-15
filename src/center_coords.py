@@ -20,7 +20,7 @@ def center_coords(ship_position, ship_heading, asteroid_positions, map_size):
     # Move the ship to the center of the map
     center = map_size / 2
     offset = center - ship_position
-    ship_position += offset
+    ship_position = ship_position.copy() + offset
 
     # Offset everything by the same amount, and adjust anything that's now "out of bounds"
     centered_asteroids = np.mod(asteroid_positions + offset, map_size)

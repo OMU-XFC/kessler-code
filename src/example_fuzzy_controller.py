@@ -36,6 +36,7 @@ class ExampleFuzzyController(KesslerController):
         ])
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
+        print(ship_state)
         # obs = np.random.random(size=(N_ATTRIBUTES,))
         obs = np.array(ship_state['position']) / MAP_SIZE
         affinity = get_affinity(obs, self.fuzzy_rule)
