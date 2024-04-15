@@ -24,7 +24,7 @@ class FuzzyController(KesslerController):
         max_indices = np.where(similarities == np.max(similarities))[0]
 
         # 結果を出力
-        print("類似度が最も高いもの:")
+        print("Most similar to input rule:")
         outs = []
         for index in max_indices:
             outs.append(out_array[index])
