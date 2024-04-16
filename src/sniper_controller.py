@@ -17,7 +17,12 @@ class SniperController(KesslerController):
         self.fsm_state = 'STOPPING'
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
+        thrust, turn, shoot, mine, _ = list(self.action_with_explain(ship_state, game_state))
+        return thrust, turn, shoot, mine
+
+    def action_with_explain(self, ship_state, game_state):
         # One huge caveat for sniping is that bullets do *not* wrap around the map!! This changes a lot of things.
+        explain = ""
         state = parse_game_state(ship_state, game_state)
 
         my_speed = state['ship']['ship_speed']
@@ -29,7 +34,7 @@ class SniperController(KesslerController):
             self.fsm_state = 'ACQUIRE_TARGET'
 
         if self.fsm_state == 'STOPPING':
-            return -1 * my_speed[0], 0, False, False
+            return -1 * my_speed[0], 0, False, False, explain
 
         if self.fsm_state == 'ACQUIRE_TARGET':
             nearest_asteroid_idx = np.argmin(state['asteroids']['polar_positions'][:, 0])
@@ -81,17 +86,17 @@ class SniperController(KesslerController):
                         turn_rate = 3
                     else:
                         turn_rate = 180
-                return 0, turn_rate, False, False
+                return 0, turn_rate, False, False, explain
 
         if self.fsm_state == 'READY':
             if state['game']['time'] >= self.countdown:
                 self.fsm_state = 'ACQUIRE_TARGET'
-                return 0, 0, True, False
+                return 0, 0, True, False, explain
             else:
-                return 0, 0, False, False
+                return 0, 0, False, False, explain
 
         print(f"Wow! No state! (It's {self.fsm_state}")
-        return 0, 0, False, False
+        return 0, 0, False, False, explain
 
     @property
     def name(self) -> str:
