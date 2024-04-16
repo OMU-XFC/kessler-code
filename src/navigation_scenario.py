@@ -105,12 +105,31 @@ def scenario_F(seed=None, n=32):
         seed=seed,
     )
 
+def simple_scenario():
+    asteroid_states = [{
+        'position': (50, 400),
+        'angle': 0,
+        'speed': 0,
+        'size': 4
+    }]
 
-def benchmark(controller):
+    s = Scenario(
+        map_size=(1000, 800),
+        ship_states=[{
+            'position': (200, 400),
+            'angle': 0,
+            'lives': 1,
+        }],
+        asteroid_states=asteroid_states,
+        time_limit=60,
+    )
+    return s
+
+
+def benchmark(controller, n_trials=20):
     game = TrainerEnvironment()
 
-    n_trials = 20
-    benchmark_scenarios = [scenario_A, scenario_D, scenario_E, scenario_F]
+    benchmark_scenarios = [scenario_D, scenario_E, scenario_F]
     scores = np.zeros(shape=(len(benchmark_scenarios), n_trials), dtype=np.float64)
 
     for i, scenario in enumerate(benchmark_scenarios):
