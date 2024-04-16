@@ -29,6 +29,7 @@ def parse_game_state(ship_state, game_state, forecast_seconds=1):
             'ship_heading': ship_heading,
             'ship_velocity': ship_velocity,
             'ship_speed': ship_speed,
+            'is_respawning': ship_state['is_respawning'],
         },
         'asteroids': {
             'xy_positions': asteroid_positions,

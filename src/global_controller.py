@@ -5,6 +5,7 @@ from kesslergame import KesslerGame, KesslerController, Scenario
 
 from src.envs.radar_env import get_radar
 from src.lib import parse_game_state
+from src.rule2string import rule2string
 
 FUZZY_SETS = [
     # Triangular fuzzy sets can be defined as functions of their center and radius
@@ -27,6 +28,13 @@ def get_compatibility(decoded_rule, observation):
         lmb = FUZZY_SETS[i]
         compat[mask] = lmb(ob2[mask])
     return np.prod(compat, axis=-1)
+
+def get_winner_rule(ruleset, observation):
+    compatibility = get_compatibility(ruleset, observation)
+    weights = rule_weights(ruleset)
+    weighted_compatibility = compatibility * weights
+    winner_idx = np.argmax(weighted_compatibility)
+    return ruleset[winner_idx]
 
 def get_output(ruleset, observation):
     compatibility = get_compatibility(ruleset, observation)
@@ -180,15 +188,19 @@ class GlobalController(KesslerController):
         radar = get_radar(state['asteroids']['polar_positions'], state['asteroids']['radii'], [100, 250, 400])
         radar[radar > 0.5] = 0.5
 
-        fuzzy_output = get_output(self.rules, radar)
-        thrust, turn = parse_output(fuzzy_output)
+        winner_rule = get_winner_rule(self.rules, radar)
+        explanation = "Winning fuzzy rule: "
+        explanation += rule2string(winner_rule)
+        thrust, turn = parse_output(winner_rule[-2:])
 
         shooting_threshold = 15
         asteroid_angles = np.degrees(state['asteroids']['polar_positions'][:, 1])
         should_shoot = np.logical_or(np.any(asteroid_angles < shooting_threshold),
                                      np.any(asteroid_angles > 360 - shooting_threshold))
+        if ship_state['is_respawning']:
+            should_shoot = False
 
-        return thrust, turn, should_shoot, False, ""
+        return thrust, turn, should_shoot, False, explanation
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         thrust, turn, shoot, mine, _ = list(self.action_with_explain(ship_state, game_state))

@@ -30,7 +30,9 @@ class SniperController(KesslerController):
 
         if my_speed > 12:
             self.fsm_state = 'STOPPING'
+            explain += "Stopping the ship for better accuracy. "
         elif my_speed <= 12 and self.fsm_state == 'STOPPING':
+            explain += "Ship has stopped moving. Acquiring target. "
             self.fsm_state = 'ACQUIRE_TARGET'
 
         if self.fsm_state == 'STOPPING':
@@ -57,6 +59,7 @@ class SniperController(KesslerController):
                     self.locked_coordinates = test_coordinates
                     self.countdown = game_state['time'] + dt - travel_time
                     self.fsm_state = 'AIMING'
+                    explain += f"Locked onto coordinates ({test_coordinates[0]:.2f}, {test_coordinates[1]:.2f}). "
                     break
 
         if self.fsm_state == 'AIMING':
@@ -71,7 +74,9 @@ class SniperController(KesslerController):
                 to_turn -= 360
             if -1 < to_turn < 1:
                 self.fsm_state = 'READY'
+                explain += "Finished aiming. "
             else:
+                explain += "Aiming... "
                 if to_turn < 0:
                     # Turn right
                     # There is no acceleration, drag etc. on turning
@@ -91,11 +96,13 @@ class SniperController(KesslerController):
         if self.fsm_state == 'READY':
             if state['game']['time'] >= self.countdown:
                 self.fsm_state = 'ACQUIRE_TARGET'
+                explain += "Fire!!"
                 return 0, 0, True, False, explain
             else:
+                explain += "Standby for asteroid to move into locked coordinates."
                 return 0, 0, False, False, explain
 
-        print(f"Wow! No state! (It's {self.fsm_state}")
+        explain += "Wow! The controller totally broke!"
         return 0, 0, False, False, explain
 
     @property

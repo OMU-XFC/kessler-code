@@ -21,6 +21,8 @@ class RoombaController(KesslerController):
         asteroid_angles = np.degrees(state['asteroids']['polar_positions'][:, 1])
         should_shoot = np.logical_or(np.any(asteroid_angles < shooting_threshold),
                                      np.any(asteroid_angles > 360 - shooting_threshold))
+        if ship_state['is_respawning']:
+            should_shoot = False
 
         nearest_asteroid_idx = np.argmin(state['asteroids']['polar_positions'][:, 0])
         angle = state['asteroids']['polar_positions'][nearest_asteroid_idx, 1]
@@ -28,16 +30,17 @@ class RoombaController(KesslerController):
         if angle > 180:
             angle -= 360
 
+        explanation = f"Avoiding an obstacle at {angle:.2f} degrees relative to the ship."
         if -90 <= angle <= 90:
             # The obstacle is in front. Face towards it, and hit reverse!
-            return -360, angle, should_shoot, False, ""
+            return -360, angle, should_shoot, False, explanation
         else:
             # The obstacle is behind us
             if angle < 0:
                 turn = angle + 180
             else:
                 turn = angle - 180
-            return 360, turn, should_shoot, False, ""
+            return 360, turn, should_shoot, False, explanation
 
     @property
     def name(self) -> str:

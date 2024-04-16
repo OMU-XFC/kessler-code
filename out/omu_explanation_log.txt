@@ -1,0 +1,1322 @@
+The nearest asteroid is 66.10 units away. Activating ROOMBA mode. Avoiding an obstacle at 100.46 degrees relative to the ship.
+The nearest asteroid is 65.64 units away. Activating ROOMBA mode. Avoiding an obstacle at 102.52 degrees relative to the ship.
+The nearest asteroid is 65.28 units away. Activating ROOMBA mode. Avoiding an obstacle at 104.76 degrees relative to the ship.
+The nearest asteroid is 65.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 107.19 degrees relative to the ship.
+The nearest asteroid is 64.96 units away. Activating ROOMBA mode. Avoiding an obstacle at 109.77 degrees relative to the ship.
+The nearest asteroid is 65.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 112.51 degrees relative to the ship.
+The nearest asteroid is 65.31 units away. Activating ROOMBA mode. Avoiding an obstacle at 115.38 degrees relative to the ship.
+The nearest asteroid is 65.81 units away. Activating ROOMBA mode. Avoiding an obstacle at 118.35 degrees relative to the ship.
+The nearest asteroid is 66.55 units away. Activating ROOMBA mode. Avoiding an obstacle at 121.41 degrees relative to the ship.
+The nearest asteroid is 67.56 units away. Activating ROOMBA mode. Avoiding an obstacle at 124.52 degrees relative to the ship.
+The nearest asteroid is 68.86 units away. Activating ROOMBA mode. Avoiding an obstacle at 127.66 degrees relative to the ship.
+The nearest asteroid is 70.48 units away. Activating ROOMBA mode. Avoiding an obstacle at 130.78 degrees relative to the ship.
+The nearest asteroid is 72.42 units away. Activating ROOMBA mode. Avoiding an obstacle at 133.86 degrees relative to the ship.
+The nearest asteroid is 74.70 units away. Activating ROOMBA mode. Avoiding an obstacle at 136.86 degrees relative to the ship.
+The nearest asteroid is 77.33 units away. Activating ROOMBA mode. Avoiding an obstacle at 139.77 degrees relative to the ship.
+The nearest asteroid is 80.32 units away. Activating ROOMBA mode. Avoiding an obstacle at 142.57 degrees relative to the ship.
+The nearest asteroid is 83.68 units away. Activating ROOMBA mode. Avoiding an obstacle at 145.22 degrees relative to the ship.
+The nearest asteroid is 87.40 units away. Activating ROOMBA mode. Avoiding an obstacle at 147.74 degrees relative to the ship.
+The nearest asteroid is 91.49 units away. Activating ROOMBA mode. Avoiding an obstacle at 150.10 degrees relative to the ship.
+The nearest asteroid is 95.94 units away. Activating ROOMBA mode. Avoiding an obstacle at 152.30 degrees relative to the ship.
+The nearest asteroid is 100.75 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 106.14 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 112.10 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 118.61 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 125.56 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 132.59 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 139.66 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 146.76 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 153.87 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 160.97 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 168.05 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 175.10 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 182.11 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 189.07 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 195.97 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 202.80 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 209.33 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 215.58 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 221.54 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 227.22 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 232.63 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 237.76 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 242.63 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 247.25 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 251.62 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 255.74 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 259.63 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 263.29 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 266.72 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 269.95 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 272.96 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 275.77 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 278.38 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 280.80 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 283.04 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 285.10 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.32 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.64 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.91 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.12 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.29 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.40 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.45 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.44 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.36 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.22 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 287.03 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.79 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.51 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.17 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 285.78 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 285.35 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 284.88 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target.Locked onto coordinates (502.35886430274707, 753.1899459457036).Aiming... 
+The nearest asteroid is 284.34 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 283.74 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 283.12 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 282.48 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 281.84 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 281.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 280.56 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 279.92 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 279.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.64 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.00 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 277.36 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 276.73 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 276.09 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 275.45 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 274.81 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 274.17 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 273.53 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.89 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.25 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 271.61 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 270.97 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 270.33 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 269.70 units away. Activating SNIPER mode. Locked onto coordinates (512.2436333766775, 742.1546253362054).Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 268.42 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.50 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 264.58 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 264.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 263.42 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 262.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 262.26 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 261.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 261.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 260.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 259.94 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 259.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 258.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 258.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 257.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 256.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 256.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 255.51 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 254.88 units away. Activating SNIPER mode. Locked onto coordinates (504.0944992806921, 718.0198490844691).Aiming... 
+The nearest asteroid is 254.25 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 253.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 252.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 252.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 251.72 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 251.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 250.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 249.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 249.19 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 248.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 247.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 247.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 246.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 246.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 245.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 244.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 244.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 243.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 242.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 242.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 241.62 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 240.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 240.36 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 239.73 units away. Activating SNIPER mode. Locked onto coordinates (510.786301873555, 704.8021814136032).Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 239.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 238.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 237.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 237.21 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 236.58 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 235.95 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 235.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 234.73 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 234.15 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 233.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 232.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 232.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 231.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 231.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 230.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 230.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 229.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 228.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 228.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 227.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 227.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 226.54 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 225.95 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 225.37 units away. Activating SNIPER mode. Locked onto coordinates (522.0880468082678, 697.2535490774104).Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 224.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 224.20 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 223.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 223.03 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 222.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 221.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 221.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 220.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 220.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 219.92 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 219.40 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 218.83 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 218.26 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 217.70 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 217.13 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 216.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 216.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 215.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 214.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 214.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 213.73 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 213.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 212.60 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 212.03 units away. Activating SNIPER mode. Locked onto coordinates (522.0105723618193, 680.5752594385209).Aiming... 
+The nearest asteroid is 211.47 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 210.90 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 210.34 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 209.77 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 209.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 208.64 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 208.07 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 207.51 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 206.94 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 206.38 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 205.81 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 205.25 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 204.68 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 204.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 203.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 202.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 202.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 201.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 201.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 200.74 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 200.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 199.61 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 198.51 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 196.98 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 195.01 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 192.63 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 189.85 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 186.69 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 183.18 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 179.46 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 175.46 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 171.23 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 166.83 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 162.34 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 157.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 153.39 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 148.90 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 142.93 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 137.07 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 131.51 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 126.58 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 122.37 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 118.97 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 116.45 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.86 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.24 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.51 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 115.73 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 117.87 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 120.86 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 124.53 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 128.88 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 133.84 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 139.33 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 145.27 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 151.59 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 158.22 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 165.10 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 172.19 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 179.43 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 186.80 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 194.25 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 201.75 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 208.89 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 215.70 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 222.18 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 228.34 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 234.20 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 239.75 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 245.02 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 250.00 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 254.72 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 259.18 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 263.38 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 267.34 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 271.06 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 274.56 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 277.84 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 280.90 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 283.75 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 286.41 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 288.88 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 291.15 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 293.25 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 295.17 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 296.93 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 298.52 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 299.96 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 301.24 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 302.38 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 303.37 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 304.23 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 304.95 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 305.55 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.02 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.37 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.61 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.73 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.75 units away. Activating SNIPER mode. Stopping the ship for better accuracy.
+The nearest asteroid is 306.66 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target.Locked onto coordinates (613.9328479339191, 707.7973806369596).Aiming... 
+The nearest asteroid is 306.48 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 306.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 305.84 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 305.39 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 304.93 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 304.46 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 304.00 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 303.53 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 303.07 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 302.60 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 302.14 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 301.67 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 301.21 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 300.74 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 300.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 299.82 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 299.35 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 298.89 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 298.42 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 297.96 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 297.49 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 297.03 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 296.56 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 296.10 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 295.64 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 295.17 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 294.71 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 294.24 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 293.78 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 293.31 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 292.85 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 292.39 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 291.92 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 291.46 units away. Activating SNIPER mode. Locked onto coordinates (629.588091168645, 705.5249970694416).Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.07 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.60 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.21 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.29 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.29 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.85 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.65 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.44 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 283.04 units away. Activating SNIPER mode. Locked onto coordinates (640.2104003702267, 681.9178505526827).Aiming... 
+The nearest asteroid is 282.64 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 282.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.65 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.85 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.29 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.50 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 274.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 274.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 273.92 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 273.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 273.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 272.74 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 272.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 271.96 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 271.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 271.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.61 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 269.22 units away. Activating SNIPER mode. Locked onto coordinates (655.1844821525015, 675.4817236218139).Aiming... 
+The nearest asteroid is 268.83 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 268.44 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 268.05 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 267.66 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 267.27 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.50 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.36 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.80 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.96 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.50 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 277.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.95 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.07 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 274.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 274.54 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 274.27 units away. Activating SNIPER mode. Locked onto coordinates (656.0480624040582, 641.6191283286469).Aiming... 
+The nearest asteroid is 274.01 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 273.75 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 273.48 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 273.22 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.96 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.70 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.43 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 272.17 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 271.91 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 271.65 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 271.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 271.14 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 270.88 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.62 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.60 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 268.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 268.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 268.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 268.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.13 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 264.88 units away. Activating SNIPER mode. Locked onto coordinates (669.5989495603561, 630.9330590406719).Aiming... 
+The nearest asteroid is 264.64 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 264.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 264.16 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 263.92 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 263.68 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 263.44 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 263.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 262.97 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 295.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 294.92 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 294.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 294.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 294.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 293.91 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 293.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 293.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 293.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.91 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.91 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.42 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.19 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.95 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 289.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.74 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 288.50 units away. Activating SNIPER mode. Locked onto coordinates (652.1327038050447, 613.6915022149464).Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.01 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.54 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 285.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.94 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.01 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.55 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 283.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 282.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 282.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 282.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 282.18 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.96 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.73 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 281.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.83 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.16 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 279.94 units away. Activating SNIPER mode. Locked onto coordinates (665.9394477058734, 604.3440387128046).Aiming... 
+The nearest asteroid is 279.72 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 279.50 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 279.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 279.06 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.84 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.63 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.41 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 278.19 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 277.97 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 319.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 319.12 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 319.03 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 318.95 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.63 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.55 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.01 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 317.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.22 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target. Locked onto coordinates (854.27, 419.37059338432385:.2f). Aiming... 
+The nearest asteroid is 443.86 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 444.49 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 445.13 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 445.76 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 446.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 447.04 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 447.67 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 448.31 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 448.95 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 449.58 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 450.22 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 450.86 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 451.50 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 452.13 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 452.77 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 453.41 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 454.05 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 454.69 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 455.32 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 455.96 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 456.60 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 457.24 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 457.88 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 458.52 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 459.16 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 459.80 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 460.44 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 461.08 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 461.72 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 462.36 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 463.00 units away. Activating SNIPER mode. Locked onto coordinates (874.94, 429.21668125558415:.2f). Aiming... 
+The nearest asteroid is 463.64 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 464.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 464.92 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 465.56 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.84 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.49 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 468.13 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 468.77 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 469.41 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 470.05 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 470.69 units away. Activating SNIPER mode. Locked onto coordinates (882.45, 432.79707684513335:.2f). Aiming... 
+The nearest asteroid is 470.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 469.91 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 469.42 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 468.93 units away. Activating SNIPER mode. Locked onto coordinates (162.13, 23.76372716521504:.2f). Aiming... 
+The nearest asteroid is 468.45 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.97 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.49 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.01 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.53 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.06 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 465.59 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 465.12 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 464.66 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 464.20 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 463.74 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 463.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 462.82 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 462.37 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 461.92 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 461.48 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 461.03 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 460.59 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 460.15 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 459.71 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 459.28 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 458.85 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 458.42 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.15 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 456.73 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 456.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 455.90 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 455.49 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 455.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 454.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 454.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 452.70 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 452.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 451.92 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 451.54 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 451.16 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 450.78 units away. Activating SNIPER mode. Locked onto coordinates (209.78, 10.069218031301094:.2f). Aiming... 
+The nearest asteroid is 450.41 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 450.03 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 449.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 449.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.94 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.58 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 446.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 446.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 446.13 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 445.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 445.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 444.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 444.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.72 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.15 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 442.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 442.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 441.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 440.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 440.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 439.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 439.19 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 438.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 438.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 437.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 436.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 436.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 435.90 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 435.36 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 434.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 434.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 433.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 433.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 432.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 432.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 431.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 431.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 430.60 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 430.09 units away. Activating SNIPER mode. Locked onto coordinates (261.49, 19.552928320772036:.2f). Aiming... 
+The nearest asteroid is 429.57 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 429.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 428.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 428.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 427.55 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 427.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 426.55 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 426.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 425.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 425.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 424.59 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 424.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 423.62 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 423.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 422.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 421.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 421.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 420.65 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 419.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 419.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 418.65 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 417.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 417.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 416.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 416.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 415.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 414.70 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 414.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 413.40 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 412.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 412.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 211.09 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target. Locked onto coordinates (693.09, 362.51). Aiming... 
+The nearest asteroid is 212.05 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 213.02 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 214.00 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 214.99 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 215.98 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 216.99 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 218.00 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 219.02 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 220.05 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 221.09 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 222.13 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 223.19 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 224.25 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 225.31 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 226.39 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 227.47 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 228.56 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 229.65 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 230.75 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 231.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 232.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 234.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 235.23 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 236.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 237.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 238.65 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 239.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 240.97 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 242.13 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 243.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 244.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 245.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 246.85 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 248.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 249.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 250.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 251.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 252.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 254.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 255.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 256.55 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 257.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 259.03 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 260.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 261.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 262.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 264.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 265.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 266.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 267.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 269.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 270.40 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 271.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 272.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 274.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 275.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 276.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 278.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 279.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 280.80 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 282.11 units away. Activating SNIPER mode. Locked onto coordinates (763.46, 400.71). Aiming... 
+The nearest asteroid is 283.43 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 284.76 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 286.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 287.42 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 288.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 290.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 291.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 292.78 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 294.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 295.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 296.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 297.66 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 298.76 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 299.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 300.97 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 302.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 303.21 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 304.33 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 305.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 306.60 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 307.74 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 308.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 310.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 311.20 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 312.36 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 313.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 314.70 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 315.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 317.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 318.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 319.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 320.63 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 321.83 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 323.03 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 324.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 325.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 326.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 327.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 329.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 330.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 331.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 332.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 334.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 335.30 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 336.54 units away. Activating SNIPER mode. Locked onto coordinates (755.15, 420.10). Aiming... 
+The nearest asteroid is 337.80 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 339.05 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 340.31 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 341.58 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 342.85 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 344.12 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 345.39 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 346.67 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 347.95 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 349.24 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 350.53 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 351.82 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 352.85 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 353.88 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 121.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 123.30 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 124.47 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 125.28 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 125.73 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 125.80 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 125.47 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 124.72 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 123.54 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 121.92 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 119.86 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 117.33 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.33 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 110.87 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 106.92 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 102.48 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 97.56 units away. Activating ROOMBA mode. Avoiding an obstacle at -19.90 degrees relative to the ship.
+The nearest asteroid is 93.13 units away. Activating ROOMBA mode. Avoiding an obstacle at -20.54 degrees relative to the ship.
+The nearest asteroid is 89.17 units away. Activating ROOMBA mode. Avoiding an obstacle at -21.13 degrees relative to the ship.
+The nearest asteroid is 85.69 units away. Activating ROOMBA mode. Avoiding an obstacle at -21.65 degrees relative to the ship.
+The nearest asteroid is 82.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.08 degrees relative to the ship.
+The nearest asteroid is 80.11 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.41 degrees relative to the ship.
+The nearest asteroid is 78.02 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.61 degrees relative to the ship.
+The nearest asteroid is 76.37 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.67 degrees relative to the ship.
+The nearest asteroid is 75.17 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.59 degrees relative to the ship.
+The nearest asteroid is 74.42 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.36 degrees relative to the ship.
+The nearest asteroid is 74.11 units away. Activating ROOMBA mode. Avoiding an obstacle at -21.98 degrees relative to the ship.
+The nearest asteroid is 74.25 units away. Activating ROOMBA mode. Avoiding an obstacle at -21.46 degrees relative to the ship.
+The nearest asteroid is 74.83 units away. Activating ROOMBA mode. Avoiding an obstacle at -20.80 degrees relative to the ship.
+The nearest asteroid is 75.88 units away. Activating ROOMBA mode. Avoiding an obstacle at -20.02 degrees relative to the ship.
+The nearest asteroid is 77.38 units away. Activating ROOMBA mode. Avoiding an obstacle at -19.15 degrees relative to the ship.
+The nearest asteroid is 79.34 units away. Activating ROOMBA mode. Avoiding an obstacle at -18.20 degrees relative to the ship.
+The nearest asteroid is 81.60 units away. Activating ROOMBA mode. Avoiding an obstacle at -17.23 degrees relative to the ship.
+The nearest asteroid is 84.17 units away. Activating ROOMBA mode. Avoiding an obstacle at -16.26 degrees relative to the ship.
+The nearest asteroid is 87.04 units away. Activating ROOMBA mode. Avoiding an obstacle at -15.29 degrees relative to the ship.
+The nearest asteroid is 90.22 units away. Activating ROOMBA mode. Avoiding an obstacle at -14.34 degrees relative to the ship.
+The nearest asteroid is 93.72 units away. Activating ROOMBA mode. Avoiding an obstacle at -13.42 degrees relative to the ship.
+The nearest asteroid is 97.52 units away. Activating ROOMBA mode. Avoiding an obstacle at -12.52 degrees relative to the ship.
+The nearest asteroid is 101.63 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 105.16 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 108.08 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 110.38 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 112.07 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 113.31 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.11 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.48 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.45 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.02 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 113.23 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 112.11 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 110.70 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 109.05 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 107.23 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 105.32 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 103.41 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 101.61 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 100.05 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 98.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 65.53 degrees relative to the ship.
+The nearest asteroid is 98.02 units away. Activating ROOMBA mode. Avoiding an obstacle at 66.45 degrees relative to the ship.
+The nearest asteroid is 97.40 units away. Activating ROOMBA mode. Avoiding an obstacle at 67.06 degrees relative to the ship.
+The nearest asteroid is 97.00 units away. Activating ROOMBA mode. Avoiding an obstacle at 67.37 degrees relative to the ship.
+The nearest asteroid is 96.79 units away. Activating ROOMBA mode. Avoiding an obstacle at 67.37 degrees relative to the ship.
+The nearest asteroid is 96.73 units away. Activating ROOMBA mode. Avoiding an obstacle at 67.07 degrees relative to the ship.
+The nearest asteroid is 96.82 units away. Activating ROOMBA mode. Avoiding an obstacle at 66.48 degrees relative to the ship.
+The nearest asteroid is 97.05 units away. Activating ROOMBA mode. Avoiding an obstacle at 65.60 degrees relative to the ship.
+The nearest asteroid is 97.42 units away. Activating ROOMBA mode. Avoiding an obstacle at 64.45 degrees relative to the ship.
+The nearest asteroid is 97.95 units away. Activating ROOMBA mode. Avoiding an obstacle at 63.05 degrees relative to the ship.
+The nearest asteroid is 98.65 units away. Activating ROOMBA mode. Avoiding an obstacle at 61.41 degrees relative to the ship.
+The nearest asteroid is 99.54 units away. Activating ROOMBA mode. Avoiding an obstacle at 59.56 degrees relative to the ship.
+The nearest asteroid is 100.65 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 101.58 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 102.39 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 103.12 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 103.84 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 104.61 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 105.52 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 106.63 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 108.03 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 109.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 106.94 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 101.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 96.16 units away. Activating ROOMBA mode. Avoiding an obstacle at -27.22 degrees relative to the ship.
+The nearest asteroid is 90.91 units away. Activating ROOMBA mode. Avoiding an obstacle at -26.76 degrees relative to the ship.
+The nearest asteroid is 86.05 units away. Activating ROOMBA mode. Avoiding an obstacle at -26.17 degrees relative to the ship.
+The nearest asteroid is 81.61 units away. Activating ROOMBA mode. Avoiding an obstacle at -25.43 degrees relative to the ship.
+The nearest asteroid is 77.58 units away. Activating ROOMBA mode. Avoiding an obstacle at -24.54 degrees relative to the ship.
+The nearest asteroid is 73.97 units away. Activating ROOMBA mode. Avoiding an obstacle at -23.47 degrees relative to the ship.
+The nearest asteroid is 70.80 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.22 degrees relative to the ship.
+The nearest asteroid is 68.07 units away. Activating ROOMBA mode. Avoiding an obstacle at -20.79 degrees relative to the ship.
+The nearest asteroid is 65.80 units away. Activating ROOMBA mode. Avoiding an obstacle at -19.18 degrees relative to the ship.
+The nearest asteroid is 64.01 units away. Activating ROOMBA mode. Avoiding an obstacle at -17.41 degrees relative to the ship.
+The nearest asteroid is 62.71 units away. Activating ROOMBA mode. Avoiding an obstacle at -15.49 degrees relative to the ship.
+The nearest asteroid is 61.92 units away. Activating ROOMBA mode. Avoiding an obstacle at -13.46 degrees relative to the ship.
+The nearest asteroid is 61.65 units away. Activating ROOMBA mode. Avoiding an obstacle at -11.36 degrees relative to the ship.
+The nearest asteroid is 61.92 units away. Activating ROOMBA mode. Avoiding an obstacle at -9.25 degrees relative to the ship.
+The nearest asteroid is 62.13 units away. Activating ROOMBA mode. Avoiding an obstacle at -7.16 degrees relative to the ship.
+The nearest asteroid is 62.72 units away. Activating ROOMBA mode. Avoiding an obstacle at -5.12 degrees relative to the ship.
+The nearest asteroid is 63.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -3.18 degrees relative to the ship.
+The nearest asteroid is 64.57 units away. Activating ROOMBA mode. Avoiding an obstacle at -1.39 degrees relative to the ship.
+The nearest asteroid is 65.83 units away. Activating ROOMBA mode. Avoiding an obstacle at 0.30 degrees relative to the ship.
+The nearest asteroid is 67.45 units away. Activating ROOMBA mode. Avoiding an obstacle at 1.85 degrees relative to the ship.
+The nearest asteroid is 69.43 units away. Activating ROOMBA mode. Avoiding an obstacle at 3.26 degrees relative to the ship.
+The nearest asteroid is 71.77 units away. Activating ROOMBA mode. Avoiding an obstacle at 4.53 degrees relative to the ship.
+The nearest asteroid is 74.45 units away. Activating ROOMBA mode. Avoiding an obstacle at 5.65 degrees relative to the ship.
+The nearest asteroid is 77.48 units away. Activating ROOMBA mode. Avoiding an obstacle at 6.63 degrees relative to the ship.
+The nearest asteroid is 80.85 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.46 degrees relative to the ship.
+The nearest asteroid is 84.55 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.16 degrees relative to the ship.
+The nearest asteroid is 88.59 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.74 degrees relative to the ship.
+The nearest asteroid is 92.60 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.17 degrees relative to the ship.
+The nearest asteroid is 96.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.50 degrees relative to the ship.
+The nearest asteroid is 101.59 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 105.59 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 108.95 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 111.66 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 113.74 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 115.22 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 116.12 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 116.47 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 116.34 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 115.76 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.94 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 113.94 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 112.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 111.66 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 110.57 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 109.64 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 108.99 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 108.74 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 109.02 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 109.95 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 111.64 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 114.19 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 117.66 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 122.11 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 127.54 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 133.96 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 141.26 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 149.09 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 157.36 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 165.99 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 174.88 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 183.99 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 193.26 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 202.64 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 211.69 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 220.42 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 224.45 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 228.06 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 231.74 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 235.45 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 239.18 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 242.90 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 246.59 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 250.24 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 253.84 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 257.37 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 260.84 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 264.22 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 267.52 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 268.42 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 263.99 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 259.73 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 255.62 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 251.66 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 247.84 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 244.16 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 240.61 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 237.19 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 233.88 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 230.68 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 227.59 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 224.61 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 221.72 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 218.93 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 216.22 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 213.61 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 211.07 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 208.61 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 206.23 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 203.92 units away. Activating SNIPER mode. Stopping the ship for better accuracy. 
+The nearest asteroid is 201.68 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target. Locked onto coordinates (319.16, 8.88). Aiming... 
+The nearest asteroid is 199.53 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 197.09 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 194.35 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 191.26 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 187.82 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 183.98 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 179.75 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 175.09 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 170.01 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 166.86 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 160.43 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 153.51 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 146.09 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 138.18 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 129.79 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 120.93 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 111.62 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 101.88 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
+The nearest asteroid is 92.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.86 degrees relative to the ship.
+The nearest asteroid is 82.71 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.74 degrees relative to the ship.
+The nearest asteroid is 91.78 units away. Activating ROOMBA mode. Avoiding an obstacle at 44.22 degrees relative to the ship.
+The nearest asteroid is 85.22 units away. Activating ROOMBA mode. Avoiding an obstacle at 45.92 degrees relative to the ship.
+The nearest asteroid is 79.00 units away. Activating ROOMBA mode. Avoiding an obstacle at 44.77 degrees relative to the ship.
+The nearest asteroid is 73.22 units away. Activating ROOMBA mode. Avoiding an obstacle at 46.58 degrees relative to the ship.
+The nearest asteroid is 67.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 48.48 degrees relative to the ship.
+The nearest asteroid is 63.13 units away. Activating ROOMBA mode. Avoiding an obstacle at 50.45 degrees relative to the ship.
+The nearest asteroid is 58.80 units away. Activating ROOMBA mode. Avoiding an obstacle at 52.48 degrees relative to the ship.
+The nearest asteroid is 54.94 units away. Activating ROOMBA mode. Avoiding an obstacle at 54.51 degrees relative to the ship.
+The nearest asteroid is 51.52 units away. Activating ROOMBA mode. Avoiding an obstacle at 56.51 degrees relative to the ship.
+The nearest asteroid is 48.45 units away. Activating ROOMBA mode. Avoiding an obstacle at 47.87 degrees relative to the ship.
+The nearest asteroid is 45.30 units away. Activating ROOMBA mode. Avoiding an obstacle at 48.66 degrees relative to the ship.
+The nearest asteroid is 42.52 units away. Activating ROOMBA mode. Avoiding an obstacle at 49.22 degrees relative to the ship.
+The nearest asteroid is 40.08 units away. Activating ROOMBA mode. Avoiding an obstacle at 49.49 degrees relative to the ship.
+The nearest asteroid is 37.99 units away. Activating ROOMBA mode. Avoiding an obstacle at 49.40 degrees relative to the ship.
+The nearest asteroid is 36.23 units away. Activating ROOMBA mode. Avoiding an obstacle at 48.88 degrees relative to the ship.
+The nearest asteroid is 34.81 units away. Activating ROOMBA mode. Avoiding an obstacle at 47.89 degrees relative to the ship.
+The nearest asteroid is 33.61 units away. Activating ROOMBA mode. Avoiding an obstacle at 46.60 degrees relative to the ship.
+The nearest asteroid is 32.65 units away. Activating ROOMBA mode. Avoiding an obstacle at 45.02 degrees relative to the ship.
+The nearest asteroid is 31.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 43.13 degrees relative to the ship.
+The nearest asteroid is 31.47 units away. Activating ROOMBA mode. Avoiding an obstacle at 40.95 degrees relative to the ship.
+The nearest asteroid is 30.14 units away. Activating ROOMBA mode. Avoiding an obstacle at 40.26 degrees relative to the ship.
+The nearest asteroid is 29.07 units away. Activating ROOMBA mode. Avoiding an obstacle at 39.28 degrees relative to the ship.
+The nearest asteroid is 28.25 units away. Activating ROOMBA mode. Avoiding an obstacle at 37.99 degrees relative to the ship.
+The nearest asteroid is 27.69 units away. Activating ROOMBA mode. Avoiding an obstacle at 36.39 degrees relative to the ship.
+The nearest asteroid is 27.41 units away. Activating ROOMBA mode. Avoiding an obstacle at 34.51 degrees relative to the ship.
+The nearest asteroid is 27.41 units away. Activating ROOMBA mode. Avoiding an obstacle at 32.39 degrees relative to the ship.
+The nearest asteroid is 27.71 units away. Activating ROOMBA mode. Avoiding an obstacle at 30.08 degrees relative to the ship.
+The nearest asteroid is 28.32 units away. Activating ROOMBA mode. Avoiding an obstacle at 27.65 degrees relative to the ship.
+The nearest asteroid is 29.24 units away. Activating ROOMBA mode. Avoiding an obstacle at 25.17 degrees relative to the ship.
+The nearest asteroid is 30.48 units away. Activating ROOMBA mode. Avoiding an obstacle at 22.72 degrees relative to the ship.
+The nearest asteroid is 32.05 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.35 degrees relative to the ship.
+The nearest asteroid is 33.96 units away. Activating ROOMBA mode. Avoiding an obstacle at 18.12 degrees relative to the ship.
+The nearest asteroid is 36.20 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.05 degrees relative to the ship.
+The nearest asteroid is 38.76 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.16 degrees relative to the ship.
+The nearest asteroid is 41.67 units away. Activating ROOMBA mode. Avoiding an obstacle at 12.46 degrees relative to the ship.
+The nearest asteroid is 44.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 10.95 degrees relative to the ship.
+The nearest asteroid is 48.45 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.61 degrees relative to the ship.
+The nearest asteroid is 51.96 units away. Activating ROOMBA mode. Avoiding an obstacle at -30.99 degrees relative to the ship.
+The nearest asteroid is 55.56 units away. Activating ROOMBA mode. Avoiding an obstacle at -27.60 degrees relative to the ship.
+The nearest asteroid is 55.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -102.27 degrees relative to the ship.
+The nearest asteroid is 53.50 units away. Activating ROOMBA mode. Avoiding an obstacle at -100.50 degrees relative to the ship.
+The nearest asteroid is 51.47 units away. Activating ROOMBA mode. Avoiding an obstacle at -99.03 degrees relative to the ship.
+The nearest asteroid is 49.54 units away. Activating ROOMBA mode. Avoiding an obstacle at -97.88 degrees relative to the ship.
+The nearest asteroid is 47.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -97.09 degrees relative to the ship.
+The nearest asteroid is 45.85 units away. Activating ROOMBA mode. Avoiding an obstacle at -96.68 degrees relative to the ship.
+The nearest asteroid is 44.05 units away. Activating ROOMBA mode. Avoiding an obstacle at -96.69 degrees relative to the ship.
+The nearest asteroid is 42.25 units away. Activating ROOMBA mode. Avoiding an obstacle at -97.14 degrees relative to the ship.
+The nearest asteroid is 40.46 units away. Activating ROOMBA mode. Avoiding an obstacle at -98.09 degrees relative to the ship.
+The nearest asteroid is 38.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -99.57 degrees relative to the ship.
+The nearest asteroid is 36.92 units away. Activating ROOMBA mode. Avoiding an obstacle at -101.66 degrees relative to the ship.
+The nearest asteroid is 35.22 units away. Activating ROOMBA mode. Avoiding an obstacle at -104.41 degrees relative to the ship.
+The nearest asteroid is 33.63 units away. Activating ROOMBA mode. Avoiding an obstacle at -107.90 degrees relative to the ship.
+The nearest asteroid is 32.22 units away. Activating ROOMBA mode. Avoiding an obstacle at -112.19 degrees relative to the ship.
+The nearest asteroid is 31.00 units away. Activating ROOMBA mode. Avoiding an obstacle at -117.09 degrees relative to the ship.
+The nearest asteroid is 30.04 units away. Activating ROOMBA mode. Avoiding an obstacle at -122.53 degrees relative to the ship.
+The nearest asteroid is 29.39 units away. Activating ROOMBA mode. Avoiding an obstacle at -128.44 degrees relative to the ship.
+The nearest asteroid is 29.14 units away. Activating ROOMBA mode. Avoiding an obstacle at -134.72 degrees relative to the ship.
+The nearest asteroid is 29.33 units away. Activating ROOMBA mode. Avoiding an obstacle at -141.16 degrees relative to the ship.
+The nearest asteroid is 30.02 units away. Activating ROOMBA mode. Avoiding an obstacle at -147.55 degrees relative to the ship.
+The nearest asteroid is 31.24 units away. Activating ROOMBA mode. Avoiding an obstacle at -153.66 degrees relative to the ship.
+The nearest asteroid is 32.98 units away. Activating ROOMBA mode. Avoiding an obstacle at -159.29 degrees relative to the ship.
+The nearest asteroid is 35.23 units away. Activating ROOMBA mode. Avoiding an obstacle at -164.32 degrees relative to the ship.
+The nearest asteroid is 37.96 units away. Activating ROOMBA mode. Avoiding an obstacle at -168.70 degrees relative to the ship.
+The nearest asteroid is 39.90 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.05 degrees relative to the ship.
+The nearest asteroid is 35.61 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.52 degrees relative to the ship.
+The nearest asteroid is 31.74 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.84 degrees relative to the ship.
+The nearest asteroid is 28.30 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.94 degrees relative to the ship.
+The nearest asteroid is 25.29 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.72 degrees relative to the ship.
+The nearest asteroid is 22.70 units away. Activating ROOMBA mode. Avoiding an obstacle at -28.05 degrees relative to the ship.
+The nearest asteroid is 20.53 units away. Activating ROOMBA mode. Avoiding an obstacle at -26.82 degrees relative to the ship.
+The nearest asteroid is 18.81 units away. Activating ROOMBA mode. Avoiding an obstacle at -24.88 degrees relative to the ship.
+The nearest asteroid is 17.54 units away. Activating ROOMBA mode. Avoiding an obstacle at -22.18 degrees relative to the ship.
+The nearest asteroid is 16.59 units away. Activating ROOMBA mode. Avoiding an obstacle at -18.94 degrees relative to the ship.
+The nearest asteroid is 15.98 units away. Activating ROOMBA mode. Avoiding an obstacle at -15.24 degrees relative to the ship.
+The nearest asteroid is 15.72 units away. Activating ROOMBA mode. Avoiding an obstacle at -11.24 degrees relative to the ship.
+The nearest asteroid is 15.84 units away. Activating ROOMBA mode. Avoiding an obstacle at -7.16 degrees relative to the ship.
+The nearest asteroid is 16.33 units away. Activating ROOMBA mode. Avoiding an obstacle at -3.24 degrees relative to the ship.
+The nearest asteroid is 17.19 units away. Activating ROOMBA mode. Avoiding an obstacle at 0.30 degrees relative to the ship.
+The nearest asteroid is 17.35 units away. Activating ROOMBA mode. Avoiding an obstacle at -62.35 degrees relative to the ship.
+The nearest asteroid is 17.35 units away. Activating ROOMBA mode. Avoiding an obstacle at -54.88 degrees relative to the ship.
+The nearest asteroid is 17.79 units away. Activating ROOMBA mode. Avoiding an obstacle at -47.16 degrees relative to the ship.
+The nearest asteroid is 18.69 units away. Activating ROOMBA mode. Avoiding an obstacle at -39.62 degrees relative to the ship.
+The nearest asteroid is 20.09 units away. Activating ROOMBA mode. Avoiding an obstacle at -32.65 degrees relative to the ship.
+The nearest asteroid is 19.98 units away. Activating ROOMBA mode. Avoiding an obstacle at -79.56 degrees relative to the ship.
+The nearest asteroid is 19.91 units away. Activating ROOMBA mode. Avoiding an obstacle at -67.92 degrees relative to the ship.
+The nearest asteroid is 20.64 units away. Activating ROOMBA mode. Avoiding an obstacle at -56.35 degrees relative to the ship.
+The nearest asteroid is 22.21 units away. Activating ROOMBA mode. Avoiding an obstacle at -45.71 degrees relative to the ship.
+The nearest asteroid is 23.61 units away. Activating ROOMBA mode. Avoiding an obstacle at 129.48 degrees relative to the ship.
+The nearest asteroid is 22.49 units away. Activating ROOMBA mode. Avoiding an obstacle at 120.73 degrees relative to the ship.
+The nearest asteroid is 22.21 units away. Activating ROOMBA mode. Avoiding an obstacle at 112.92 degrees relative to the ship.
+The nearest asteroid is 22.54 units away. Activating ROOMBA mode. Avoiding an obstacle at 106.71 degrees relative to the ship.
+The nearest asteroid is 23.28 units away. Activating ROOMBA mode. Avoiding an obstacle at 102.38 degrees relative to the ship.
+The nearest asteroid is 24.26 units away. Activating ROOMBA mode. Avoiding an obstacle at 99.87 degrees relative to the ship.
+The nearest asteroid is 25.34 units away. Activating ROOMBA mode. Avoiding an obstacle at 99.01 degrees relative to the ship.
+The nearest asteroid is 26.47 units away. Activating ROOMBA mode. Avoiding an obstacle at 99.56 degrees relative to the ship.
+The nearest asteroid is 27.64 units away. Activating ROOMBA mode. Avoiding an obstacle at 101.29 degrees relative to the ship.
+The nearest asteroid is 28.87 units away. Activating ROOMBA mode. Avoiding an obstacle at 104.01 degrees relative to the ship.
+The nearest asteroid is 30.20 units away. Activating ROOMBA mode. Avoiding an obstacle at 107.55 degrees relative to the ship.
+The nearest asteroid is 30.22 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.85 degrees relative to the ship.
+The nearest asteroid is 28.85 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.12 degrees relative to the ship.
+The nearest asteroid is 27.79 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.33 degrees relative to the ship.
+The nearest asteroid is 27.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.47 degrees relative to the ship.
+The nearest asteroid is 26.60 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.53 degrees relative to the ship.
+The nearest asteroid is 26.47 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.51 degrees relative to the ship.
+The nearest asteroid is 26.65 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.40 degrees relative to the ship.
+The nearest asteroid is 27.14 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.20 degrees relative to the ship.
+The nearest asteroid is 27.94 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.93 degrees relative to the ship.
+The nearest asteroid is 29.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.61 degrees relative to the ship.
+The nearest asteroid is 30.46 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.24 degrees relative to the ship.
+The nearest asteroid is 32.19 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.84 degrees relative to the ship.
+The nearest asteroid is 30.67 units away. Activating ROOMBA mode. Avoiding an obstacle at -174.75 degrees relative to the ship.
+The nearest asteroid is 28.88 units away. Activating ROOMBA mode. Avoiding an obstacle at -176.13 degrees relative to the ship.
+The nearest asteroid is 36.85 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.18 degrees relative to the ship.
+The nearest asteroid is 35.50 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.52 degrees relative to the ship.
+The nearest asteroid is 34.46 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.83 degrees relative to the ship.
+The nearest asteroid is 33.73 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.10 degrees relative to the ship.
+The nearest asteroid is 33.32 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.31 degrees relative to the ship.
+The nearest asteroid is 33.21 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.45 degrees relative to the ship.
+The nearest asteroid is 33.41 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.53 degrees relative to the ship.
+The nearest asteroid is 33.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.54 degrees relative to the ship.
+The nearest asteroid is 34.76 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.48 degrees relative to the ship.
+The nearest asteroid is 35.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.36 degrees relative to the ship.
+The nearest asteroid is 37.34 units away. Activating ROOMBA mode. Avoiding an obstacle at 8.18 degrees relative to the ship.
+The nearest asteroid is 39.10 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.97 degrees relative to the ship.
+The nearest asteroid is 41.16 units away. Activating ROOMBA mode. Avoiding an obstacle at 7.72 degrees relative to the ship.
+The nearest asteroid is 42.48 units away. Activating ROOMBA mode. Avoiding an obstacle at 158.53 degrees relative to the ship.
+The nearest asteroid is 41.01 units away. Activating ROOMBA mode. Avoiding an obstacle at 157.18 degrees relative to the ship.
+The nearest asteroid is 40.01 units away. Activating ROOMBA mode. Avoiding an obstacle at 156.06 degrees relative to the ship.
+The nearest asteroid is 39.49 units away. Activating ROOMBA mode. Avoiding an obstacle at 155.25 degrees relative to the ship.
+The nearest asteroid is 39.42 units away. Activating ROOMBA mode. Avoiding an obstacle at 154.78 degrees relative to the ship.
+The nearest asteroid is 39.80 units away. Activating ROOMBA mode. Avoiding an obstacle at 154.67 degrees relative to the ship.
+The nearest asteroid is 40.62 units away. Activating ROOMBA mode. Avoiding an obstacle at 154.91 degrees relative to the ship.
+The nearest asteroid is 41.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 155.47 degrees relative to the ship.
+The nearest asteroid is 43.59 units away. Activating ROOMBA mode. Avoiding an obstacle at 156.30 degrees relative to the ship.
+The nearest asteroid is 43.08 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.49 degrees relative to the ship.
+The nearest asteroid is 41.60 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.66 degrees relative to the ship.
+The nearest asteroid is 40.43 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.74 degrees relative to the ship.
+The nearest asteroid is 39.56 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.73 degrees relative to the ship.
+The nearest asteroid is 39.00 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.61 degrees relative to the ship.
+The nearest asteroid is 38.74 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.40 degrees relative to the ship.
+The nearest asteroid is 38.78 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.08 degrees relative to the ship.
+The nearest asteroid is 39.12 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.66 degrees relative to the ship.
+The nearest asteroid is 39.77 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.16 degrees relative to the ship.
+The nearest asteroid is 40.73 units away. Activating ROOMBA mode. Avoiding an obstacle at 15.59 degrees relative to the ship.
+The nearest asteroid is 41.99 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.95 degrees relative to the ship.
+The nearest asteroid is 41.40 units away. Activating ROOMBA mode. Avoiding an obstacle at -131.94 degrees relative to the ship.
+The nearest asteroid is 39.81 units away. Activating ROOMBA mode. Avoiding an obstacle at -132.95 degrees relative to the ship.
+The nearest asteroid is 38.52 units away. Activating ROOMBA mode. Avoiding an obstacle at -134.48 degrees relative to the ship.
+The nearest asteroid is 37.54 units away. Activating ROOMBA mode. Avoiding an obstacle at -136.54 degrees relative to the ship.
+The nearest asteroid is 36.89 units away. Activating ROOMBA mode. Avoiding an obstacle at -139.12 degrees relative to the ship.
+The nearest asteroid is 36.63 units away. Activating ROOMBA mode. Avoiding an obstacle at -142.17 degrees relative to the ship.
+The nearest asteroid is 36.79 units away. Activating ROOMBA mode. Avoiding an obstacle at -145.60 degrees relative to the ship.
+The nearest asteroid is 37.41 units away. Activating ROOMBA mode. Avoiding an obstacle at -149.29 degrees relative to the ship.
+The nearest asteroid is 38.39 units away. Activating ROOMBA mode. Avoiding an obstacle at -152.98 degrees relative to the ship.
+The nearest asteroid is 37.29 units away. Activating ROOMBA mode. Avoiding an obstacle at 9.51 degrees relative to the ship.
+The nearest asteroid is 35.53 units away. Activating ROOMBA mode. Avoiding an obstacle at 10.69 degrees relative to the ship.
+The nearest asteroid is 34.26 units away. Activating ROOMBA mode. Avoiding an obstacle at 11.82 degrees relative to the ship.
+The nearest asteroid is 33.33 units away. Activating ROOMBA mode. Avoiding an obstacle at 12.90 degrees relative to the ship.
+The nearest asteroid is 32.72 units away. Activating ROOMBA mode. Avoiding an obstacle at 13.91 degrees relative to the ship.
+The nearest asteroid is 32.44 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.81 degrees relative to the ship.
+The nearest asteroid is 32.47 units away. Activating ROOMBA mode. Avoiding an obstacle at 15.57 degrees relative to the ship.
+The nearest asteroid is 32.83 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.17 degrees relative to the ship.
+The nearest asteroid is 33.50 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.60 degrees relative to the ship.
+The nearest asteroid is 34.48 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.86 degrees relative to the ship.
+The nearest asteroid is 35.77 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.96 degrees relative to the ship.
+The nearest asteroid is 34.20 units away. Activating ROOMBA mode. Avoiding an obstacle at 179.09 degrees relative to the ship.
+The nearest asteroid is 32.84 units away. Activating ROOMBA mode. Avoiding an obstacle at 176.96 degrees relative to the ship.
+The nearest asteroid is 32.01 units away. Activating ROOMBA mode. Avoiding an obstacle at 174.80 degrees relative to the ship.
+The nearest asteroid is 31.72 units away. Activating ROOMBA mode. Avoiding an obstacle at 172.72 degrees relative to the ship.
+The nearest asteroid is 31.97 units away. Activating ROOMBA mode. Avoiding an obstacle at 170.83 degrees relative to the ship.
+The nearest asteroid is 32.73 units away. Activating ROOMBA mode. Avoiding an obstacle at 169.21 degrees relative to the ship.
+The nearest asteroid is 34.01 units away. Activating ROOMBA mode. Avoiding an obstacle at 167.91 degrees relative to the ship.
+The nearest asteroid is 35.79 units away. Activating ROOMBA mode. Avoiding an obstacle at 166.96 degrees relative to the ship.
+The nearest asteroid is 34.41 units away. Activating ROOMBA mode. Avoiding an obstacle at 31.76 degrees relative to the ship.
+The nearest asteroid is 33.27 units away. Activating ROOMBA mode. Avoiding an obstacle at 33.40 degrees relative to the ship.
+The nearest asteroid is 32.60 units away. Activating ROOMBA mode. Avoiding an obstacle at 34.67 degrees relative to the ship.
+The nearest asteroid is 32.25 units away. Activating ROOMBA mode. Avoiding an obstacle at 35.68 degrees relative to the ship.
+The nearest asteroid is 31.65 units away. Activating ROOMBA mode. Avoiding an obstacle at -8.31 degrees relative to the ship.
+The nearest asteroid is 31.16 units away. Activating ROOMBA mode. Avoiding an obstacle at -7.33 degrees relative to the ship.
+The nearest asteroid is 30.97 units away. Activating ROOMBA mode. Avoiding an obstacle at -6.30 degrees relative to the ship.
+The nearest asteroid is 31.11 units away. Activating ROOMBA mode. Avoiding an obstacle at -5.25 degrees relative to the ship.
+The nearest asteroid is 31.56 units away. Activating ROOMBA mode. Avoiding an obstacle at -4.21 degrees relative to the ship.
+The nearest asteroid is 32.32 units away. Activating ROOMBA mode. Avoiding an obstacle at -3.21 degrees relative to the ship.
+The nearest asteroid is 33.41 units away. Activating ROOMBA mode. Avoiding an obstacle at -2.27 degrees relative to the ship.
+The nearest asteroid is 34.81 units away. Activating ROOMBA mode. Avoiding an obstacle at -1.41 degrees relative to the ship.
+The nearest asteroid is 36.54 units away. Activating ROOMBA mode. Avoiding an obstacle at -0.63 degrees relative to the ship.
+The nearest asteroid is 38.47 units away. Activating ROOMBA mode. Avoiding an obstacle at 134.73 degrees relative to the ship.
+The nearest asteroid is 37.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 132.75 degrees relative to the ship.
+The nearest asteroid is 37.70 units away. Activating ROOMBA mode. Avoiding an obstacle at 131.39 degrees relative to the ship.
+The nearest asteroid is 37.87 units away. Activating ROOMBA mode. Avoiding an obstacle at 130.70 degrees relative to the ship.
+The nearest asteroid is 38.37 units away. Activating ROOMBA mode. Avoiding an obstacle at 130.67 degrees relative to the ship.
+The nearest asteroid is 39.19 units away. Activating ROOMBA mode. Avoiding an obstacle at 131.28 degrees relative to the ship.
+The nearest asteroid is 40.31 units away. Activating ROOMBA mode. Avoiding an obstacle at 132.47 degrees relative to the ship.
+The nearest asteroid is 39.16 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.13 degrees relative to the ship.
+The nearest asteroid is 38.10 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.20 degrees relative to the ship.
+The nearest asteroid is 37.34 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.19 degrees relative to the ship.
+The nearest asteroid is 36.89 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.09 degrees relative to the ship.
+The nearest asteroid is 36.75 units away. Activating ROOMBA mode. Avoiding an obstacle at 13.91 degrees relative to the ship.
+The nearest asteroid is 36.91 units away. Activating ROOMBA mode. Avoiding an obstacle at 13.63 degrees relative to the ship.
+The nearest asteroid is 37.37 units away. Activating ROOMBA mode. Avoiding an obstacle at 13.28 degrees relative to the ship.
+The nearest asteroid is 38.15 units away. Activating ROOMBA mode. Avoiding an obstacle at 12.85 degrees relative to the ship.
+The nearest asteroid is 39.23 units away. Activating ROOMBA mode. Avoiding an obstacle at 12.37 degrees relative to the ship.
+The nearest asteroid is 40.63 units away. Activating ROOMBA mode. Avoiding an obstacle at 11.85 degrees relative to the ship.
+The nearest asteroid is 42.33 units away. Activating ROOMBA mode. Avoiding an obstacle at 11.29 degrees relative to the ship.
+The nearest asteroid is 44.34 units away. Activating ROOMBA mode. Avoiding an obstacle at 10.72 degrees relative to the ship.
+The nearest asteroid is 46.66 units away. Activating ROOMBA mode. Avoiding an obstacle at 10.14 degrees relative to the ship.
+The nearest asteroid is 47.43 units away. Activating ROOMBA mode. Avoiding an obstacle at 102.35 degrees relative to the ship.
+The nearest asteroid is 46.12 units away. Activating ROOMBA mode. Avoiding an obstacle at 158.53 degrees relative to the ship.
+The nearest asteroid is 44.75 units away. Activating ROOMBA mode. Avoiding an obstacle at 157.65 degrees relative to the ship.
+The nearest asteroid is 43.85 units away. Activating ROOMBA mode. Avoiding an obstacle at 157.00 degrees relative to the ship.
+The nearest asteroid is 43.40 units away. Activating ROOMBA mode. Avoiding an obstacle at 156.63 degrees relative to the ship.
+The nearest asteroid is 43.41 units away. Activating ROOMBA mode. Avoiding an obstacle at 156.54 degrees relative to the ship.
+The nearest asteroid is 43.87 units away. Activating ROOMBA mode. Avoiding an obstacle at 156.74 degrees relative to the ship.
+The nearest asteroid is 44.77 units away. Activating ROOMBA mode. Avoiding an obstacle at 157.22 degrees relative to the ship.
+The nearest asteroid is 46.13 units away. Activating ROOMBA mode. Avoiding an obstacle at 157.93 degrees relative to the ship.
+The nearest asteroid is 47.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 158.85 degrees relative to the ship.
+The nearest asteroid is 49.02 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.54 degrees relative to the ship.
+The nearest asteroid is 47.46 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.52 degrees relative to the ship.
+The nearest asteroid is 46.20 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.42 degrees relative to the ship.
+The nearest asteroid is 45.24 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.22 degrees relative to the ship.
+The nearest asteroid is 44.58 units away. Activating ROOMBA mode. Avoiding an obstacle at 19.92 degrees relative to the ship.
+The nearest asteroid is 44.22 units away. Activating ROOMBA mode. Avoiding an obstacle at 19.52 degrees relative to the ship.
+The nearest asteroid is 44.16 units away. Activating ROOMBA mode. Avoiding an obstacle at 19.02 degrees relative to the ship.
+The nearest asteroid is 44.39 units away. Activating ROOMBA mode. Avoiding an obstacle at 18.44 degrees relative to the ship.
+The nearest asteroid is 44.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.78 degrees relative to the ship.
+The nearest asteroid is 45.78 units away. Activating ROOMBA mode. Avoiding an obstacle at 17.05 degrees relative to the ship.
+The nearest asteroid is 46.93 units away. Activating ROOMBA mode. Avoiding an obstacle at 16.28 degrees relative to the ship.
+The nearest asteroid is 48.39 units away. Activating ROOMBA mode. Avoiding an obstacle at 15.47 degrees relative to the ship.
+The nearest asteroid is 50.16 units away. Activating ROOMBA mode. Avoiding an obstacle at 14.65 degrees relative to the ship.
+The nearest asteroid is 49.73 units away. Activating ROOMBA mode. Avoiding an obstacle at -170.21 degrees relative to the ship.
+The nearest asteroid is 47.83 units away. Activating ROOMBA mode. Avoiding an obstacle at -171.05 degrees relative to the ship.
+The nearest asteroid is 46.41 units away. Activating ROOMBA mode. Avoiding an obstacle at -172.00 degrees relative to the ship.
+The nearest asteroid is 45.49 units away. Activating ROOMBA mode. Avoiding an obstacle at -173.06 degrees relative to the ship.
+The nearest asteroid is 45.06 units away. Activating ROOMBA mode. Avoiding an obstacle at -174.19 degrees relative to the ship.
+The nearest asteroid is 45.12 units away. Activating ROOMBA mode. Avoiding an obstacle at -175.36 degrees relative to the ship.
+The nearest asteroid is 45.69 units away. Activating ROOMBA mode. Avoiding an obstacle at -176.53 degrees relative to the ship.
+The nearest asteroid is 46.76 units away. Activating ROOMBA mode. Avoiding an obstacle at -177.66 degrees relative to the ship.
+The nearest asteroid is 48.33 units away. Activating ROOMBA mode. Avoiding an obstacle at -178.72 degrees relative to the ship.
+The nearest asteroid is 48.55 units away. Activating ROOMBA mode. Avoiding an obstacle at -69.31 degrees relative to the ship.
+The nearest asteroid is 47.80 units away. Activating ROOMBA mode. Avoiding an obstacle at -68.82 degrees relative to the ship.
+The nearest asteroid is 47.17 units away. Activating ROOMBA mode. Avoiding an obstacle at 21.41 degrees relative to the ship.
+The nearest asteroid is 46.27 units away. Activating ROOMBA mode. Avoiding an obstacle at 21.32 degrees relative to the ship.
+The nearest asteroid is 45.66 units away. Activating ROOMBA mode. Avoiding an obstacle at 21.12 degrees relative to the ship.
+The nearest asteroid is 45.35 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.82 degrees relative to the ship.
+The nearest asteroid is 45.34 units away. Activating ROOMBA mode. Avoiding an obstacle at 20.41 degrees relative to the ship.
+The nearest asteroid is 45.63 units away. Activating ROOMBA mode. Avoiding an obstacle at 19.91 degrees relative to the ship.
+The nearest asteroid is 45.81 units away. Activating ROOMBA mode. Avoiding an obstacle at -74.03 degrees relative to the ship.
+The nearest asteroid is 45.96 units away. Activating ROOMBA mode. Avoiding an obstacle at -70.59 degrees relative to the ship.
+The nearest asteroid is 46.35 units away. Activating ROOMBA mode. Avoiding an obstacle at -66.97 degrees relative to the ship.
+The nearest asteroid is 46.99 units away. Activating ROOMBA mode. Avoiding an obstacle at -63.21 degrees relative to the ship.
+The nearest asteroid is 47.37 units away. Activating ROOMBA mode. Avoiding an obstacle at -179.20 degrees relative to the ship.
+The nearest asteroid is 45.96 units away. Activating ROOMBA mode. Avoiding an obstacle at -179.84 degrees relative to the ship.
+The nearest asteroid is 45.04 units away. Activating ROOMBA mode. Avoiding an obstacle at 179.52 degrees relative to the ship.
+The nearest asteroid is 44.62 units away. Activating ROOMBA mode. Avoiding an obstacle at 178.88 degrees relative to the ship.
+The nearest asteroid is 44.69 units away. Activating ROOMBA mode. Avoiding an obstacle at 178.27 degrees relative to the ship.
+The nearest asteroid is 45.26 units away. Activating ROOMBA mode. Avoiding an obstacle at 177.71 degrees relative to the ship.
+The nearest asteroid is 46.32 units away. Activating ROOMBA mode. Avoiding an obstacle at 177.21 degrees relative to the ship.
+The nearest asteroid is 47.73 units away. Activating ROOMBA mode. Avoiding an obstacle at -61.29 degrees relative to the ship.
+The nearest asteroid is 47.18 units away. Activating ROOMBA mode. Avoiding an obstacle at -60.80 degrees relative to the ship.
+The nearest asteroid is 46.84 units away. Activating ROOMBA mode. Avoiding an obstacle at -60.05 degrees relative to the ship.
+The nearest asteroid is 46.70 units away. Activating ROOMBA mode. Avoiding an obstacle at -59.02 degrees relative to the ship.
+The nearest asteroid is 46.42 units away. Activating ROOMBA mode. Avoiding an obstacle at 36.43 degrees relative to the ship.
+The nearest asteroid is 46.21 units away. Activating ROOMBA mode. Avoiding an obstacle at 35.03 degrees relative to the ship.
+The nearest asteroid is 46.28 units away. Activating ROOMBA mode. Avoiding an obstacle at 33.49 degrees relative to the ship.
+The nearest asteroid is 46.64 units away. Activating ROOMBA mode. Avoiding an obstacle at 31.85 degrees relative to the ship.
+The nearest asteroid is 47.29 units away. Activating ROOMBA mode. Avoiding an obstacle at 30.12 degrees relative to the ship.
+The nearest asteroid is 47.97 units away. Activating ROOMBA mode. Avoiding an obstacle at 175.33 degrees relative to the ship.
+The nearest asteroid is 47.25 units away. Activating ROOMBA mode. Avoiding an obstacle at 174.90 degrees relative to the ship.
+The nearest asteroid is 47.01 units away. Activating ROOMBA mode. Avoiding an obstacle at 174.53 degrees relative to the ship.
+The nearest asteroid is 47.27 units away. Activating ROOMBA mode. Avoiding an obstacle at 174.24 degrees relative to the ship.
