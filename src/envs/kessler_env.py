@@ -37,8 +37,8 @@ class KesslerEnv(gym.Env):
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed, options=options)
-        rand = np.random.randint(0, len(Scenario_half))
-        self.scenario = Scenario_half[rand]
+        rand = np.random.randint(0, len(Scenario_list))
+        self.scenario = Scenario_list[rand]
         self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller])
         score, perf_list, game_state = next(self.game_generator)
         self.prev_state, self.current_state = None, game_state

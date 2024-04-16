@@ -14,7 +14,7 @@ from src.center_coods2 import center_coords2
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 def train():
-    kessler_env = Monitor(KesslerEnv(scenario=accuracy_test_1))
+    kessler_env = Monitor(KesslerEnv(scenario=threat_test_1))
 #   kessler_env = make_vec_env(KesslerEnv, n_envs=4)
 #   kessler_env = DummyVecEnv([lambda: kessler_env])
 #   check_env(kessler_env, warn=True)
@@ -30,28 +30,32 @@ def train():
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+50000  Mean reward: {mean_reward:.2f}')
     #model.save(f"kessler-out/50krand{i}")"""
-    i = 0
+    i = 2
 
     model.learn(1000000)
     mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
     print(f'+1000000 Mean reward: {mean_reward:.2f}')
-    model.save(f"kessler-out/Scenariohalf_rand{i}")
+    model.save(f"kessler-out/Scenario_list_2{i}")
 
     #print("Saving")
     #model.save(f"kessler-out/Scenarios1_rand{i}")
 
 def run():
     kessler_game = KesslerGame()
-    scenario = ring_static_left
+    scenario = ring_static_right
     controller = SuperDummyController()
     score, perf_list = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True)
 
-
+def run_all():
+    kessler_game = TrainerEnvironment()
+    for scenario in Scenario_full:
+        controller = SuperDummyController()
+        score, perf_list = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True)
 
 
 class SuperDummyController(KesslerController):
     def __init__(self):
-        self.model = PPO.load("kessler-out/Scenariohalf_rand1")
+        self.model = PPO.load("kessler-out/Scenario_list_rand12")
 
     @property
     def name(self) -> str:
@@ -60,10 +64,9 @@ class SuperDummyController(KesslerController):
         obs = self._get_obs(game_state)
         action = self.model.predict(obs)
         thrust, turn, fire  = list(action[0])
-        print(obs['asteroid_angle'])
         fire_bullet = (fire >= 0.0)
-        if 0:
-            with open("inout/Scenarios_full.txt", 'a') as f:
+        if 1:
+            with open("inout/Scenarios_full12.txt", 'a') as f:
                 f.write(str(list(obs.values())))
                 f.write('\n')
                 f.write(f"[{thrust}, {turn}, {fire}]\n")
@@ -102,20 +105,11 @@ class SuperDummyController(KesslerController):
 
         return obs
 
-def train_repeat(rewards):
-    kessler_env = Monitor(KesslerEnv())
-    #    kessler_env = make_vec_env(KesslerEnv, n_envs=4)
-    #    kessler_env = DummyVecEnv([lambda: kessler_env])
-    #    check_env(kessler_env, warn=True)
-    model = PPO("MultiInputPolicy", kessler_env)
 
-    model.learn(50000)
-    mean_reward, _ = evaluate_policy(model, kessler_env, n_eval_episodes=10)
-    print(f'+50000  Mean reward: {mean_reward:.2f}')
-    model.save("kessler-out/50k")
 
 if __name__ == '__main__':
-    train()
-    #run()
+    run_all()
+    print("full12 done")
+
 
 

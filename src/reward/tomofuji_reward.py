@@ -32,14 +32,14 @@ def tomofuji_reward(game_state, prev_state, obs):
 
     min = np.argmin(obs['asteroid_dist'])
 
-    if obs['asteroid_dist'][min] < 50:
+    if obs['asteroid_dist'][min] < 35:
         reward -= 100.0
 
-    elif obs['asteroid_dist'][min] < 100:
+    elif obs['asteroid_dist'][min] < 75:
         reward -= 50.0
 
-    if 350 <obs['asteroid_angle'][min] or obs['asteroid_angle'][min] < 10:
-        reward += 10.0
+    if 355 <obs['asteroid_angle'][min] or obs['asteroid_angle'][min] < 5:
+        reward += 20.0
 
 
 

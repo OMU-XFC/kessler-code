@@ -30,7 +30,7 @@ def fitnesses(X):
 
 if __name__ == '__main__':
     # テキストファイルのパス
-    file_path = 'src/inout/Scenarios_full.txt'
+    file_path = 'src/inout/Scenarios_full12.txt'
 
     # ファイルを読み込んでテキストを取得
     with open(file_path, 'r') as file:
@@ -60,12 +60,10 @@ if __name__ == '__main__':
     # XとYをNumpy配列に変換
     X = np.array(X)
     Y = np.array(Y)
-    print(X.shape)
     less_zero = np.array(np.sum(X == 0.0, axis=0))
     less_zero = less_zero < len(X) / 2
     # If more than half of zero, the column is deleted.
     X = X[:, less_zero]
-
     # 各変数が取り得る値のリスト
     possible_values = [0, 1, 2, 3]
 
