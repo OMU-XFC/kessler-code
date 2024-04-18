@@ -3,7 +3,6 @@ from typing import Dict, Tuple
 import numpy as np
 from kesslergame import KesslerGame, KesslerController, Scenario
 
-from src.envs.radar_env import get_radar
 from src.lib import parse_game_state
 from src.rule2string import rule2string
 
@@ -18,6 +17,37 @@ FUZZY_SETS = [
     lambda x: (x < 0.01).astype(int),  # Clear
     lambda x: (x > 0.01).astype(int),  # Dangerous
 ]
+
+def get_radar(centered_asteroids, asteroid_radii, radar_zones):
+    asteroid_areas = np.pi * asteroid_radii * asteroid_radii
+    rho, phi = centered_asteroids[:, 0], centered_asteroids[:, 1]
+
+    #rho -= asteroid_radii
+    is_near = rho < radar_zones[0]
+    is_medium = np.logical_and(rho < radar_zones[1], rho >= radar_zones[0])
+    is_far = np.logical_and(rho < radar_zones[2], rho >= radar_zones[1])
+
+    is_front = np.logical_or(phi < 0.25 * np.pi, phi >= 1.75 * np.pi)
+    is_left = np.logical_and(phi < 0.75 * np.pi, phi >= 0.25 * np.pi)
+    is_behind = np.logical_and(phi < 1.25 * np.pi, phi >= 0.75 * np.pi)
+    is_right = np.logical_and(phi < 1.75 * np.pi, phi >= 1.25 * np.pi)
+
+    inner_area = np.pi * radar_zones[0] * radar_zones[0]
+    middle_area = np.pi * radar_zones[1] * radar_zones[1]
+    outer_area = np.pi * radar_zones[2] * radar_zones[2]
+    # The area of one slice in the outer, middle, and inner donuts
+    slice_areas = [(outer_area - (middle_area + inner_area)) / 4, (middle_area - inner_area) / 4, inner_area / 4]
+
+    radar_info = np.zeros(shape=(12,))
+    for idx, distance_mask in enumerate([is_far, is_medium, is_near]):
+        slice_area = slice_areas[idx]
+        for jdx, angle_mask in enumerate([is_front, is_left, is_behind, is_right]):
+            mask = np.logical_and(distance_mask, angle_mask)
+            total_asteroid_area = np.sum(asteroid_areas[mask])
+            index = idx * 4 + jdx
+            radar_info[index] = min(1, total_asteroid_area / slice_area)
+
+    return radar_info
 
 def get_compatibility(decoded_rule, observation):
     antecedents = decoded_rule[:, :-2]
