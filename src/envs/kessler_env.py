@@ -33,7 +33,7 @@ class KesslerEnv(gym.Env):
                 "asteroid_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel, shape=(N_CLOSEST_ASTEROIDS,))
             }
         )
-        self.action_space = spaces.Box(low=-1, high=1, shape=(3,))
+        self.action_space = spaces.Box(low=-1, high=1, shape=(4,))
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed, options=options)
@@ -47,7 +47,7 @@ class KesslerEnv(gym.Env):
 
     def step(self, action):
         # Just always fire, for now...
-        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, action[2]>=0.0, False
+        thrust, turn_rate, fire, drop_mine = action[0] * THRUST_SCALE, action[1] * TURN_SCALE, action[2]>=0.0, action[3]>=0.0
         self.controller.action_queue.append(tuple([thrust, turn_rate, fire, drop_mine]))
         try:
             score, perf_list, game_state = next(self.game_generator)
@@ -66,34 +66,66 @@ class KesslerEnv(gym.Env):
     def _get_info(self):
         return {}
 
+
 def get_obs(game_state):
     # For now, we are assuming only one ship (ours)
     ship = game_state['ships'][0]
-    asteroids = game_state['asteroids']
 
+    # handle asteroids
+    asteroids = game_state['asteroids']
     asteroid_positions = np.array([asteroid['position'] for asteroid in asteroids])
     rho, phi, x, y = center_coords2(ship['position'], ship['heading'], asteroid_positions)
-
     asteroid_velocities = np.array([asteroid['velocity'] for asteroid in asteroids])
     asteroid_velocities_relative = asteroid_velocities - ship['velocity']
     asteroid_speed_relative = np.linalg.norm(asteroid_velocities_relative, axis=1)
-
     asteroid_info = np.stack([
-        rho, phi, asteroid_speed_relative
-    ], axis=1)
+        rho, phi, asteroid_speed_relative], axis=1)
 
     # Sort by first column (distance)
     asteroid_info = asteroid_info[
-        asteroid_info[:, 0].argsort()
-    ]
+        asteroid_info[:, 0].argsort()]
+    N_CLOSEST_ASTEROIDS = 5
     # Pad
     padding_len = N_CLOSEST_ASTEROIDS - asteroid_info.shape[0]
     if padding_len > 0:
-        asteroid_info = np.concatenate([asteroid_info, np.array(padding_len * [[1000, 180, 0.0]])])
+        pad_shape = (padding_len, asteroid_info.shape[1])
+        asteroid_info = np.concatenate([asteroid_info, np.empty(pad_shape)])
+
+    # handle opponent ship
+    if len(game_state['ships']) == 2:
+        ship_oppose = game_state['ships'][1]
+        opponent_position = ship_oppose['position']
+        opponent_velocity = ship_oppose['velocity']
+        opponent_velocity_relative = opponent_velocity - ship['velocity']
+        opponent_speed_relative = np.linalg.norm(opponent_velocity_relative)
+        rho_oppose, phi_oppose, x_oppose, y_oppose = center_coords2(ship['position'], ship['heading'],
+                                                                    opponent_position)
+    else:
+        rho_oppose, phi_oppose, opponent_speed_relative = 1000, 180, 0.0
+
+    if len(game_state['mines']) > 0:
+        mine = game_state['mines']
+        # 一番近い地雷を取得
+        mine_positions = np.array([mine['position'] for mine in mine])
+        rho_mine, phi_mine, x_mine, y_mine = center_coords2(ship['position'], ship['heading'], mine_positions)
+        mine_info = np.stack([
+            rho_mine, phi_mine
+        ], axis=1)
+        mine_info = mine_info[
+            mine_info[:, 0].argsort()]
+        nearest_mine = mine_info[0]
+    else:
+        nearest_mine = [1000, 180]
+
     obs = {
         "asteroid_dist": asteroid_info[:N_CLOSEST_ASTEROIDS, 0],
         "asteroid_angle": asteroid_info[:N_CLOSEST_ASTEROIDS, 1],
         "asteroid_rel_speed": asteroid_info[:N_CLOSEST_ASTEROIDS, 2],
+        "opponent_dist": rho_oppose,
+        "opponent_angle": phi_oppose,
+        "opponent_rel_speed": opponent_speed_relative,
+        "nearest_mine_dist": nearest_mine[0],
+        "nearest_mine_angle": nearest_mine[1]
     }
 
     return obs
