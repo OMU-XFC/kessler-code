@@ -30,7 +30,12 @@ class KesslerEnv(gym.Env):
             {
                 "asteroid_dist": spaces.Box(low=0, high=max_dist, shape=(N_CLOSEST_ASTEROIDS,)),
                 "asteroid_angle": spaces.Box(low=0, high=360, shape=(N_CLOSEST_ASTEROIDS,)),
-                "asteroid_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel, shape=(N_CLOSEST_ASTEROIDS,))
+                "asteroid_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel, shape=(N_CLOSEST_ASTEROIDS,)),
+                "opponent_dist": spaces.Box(low=0, high=max_dist),
+                "opponent_angle": spaces.Box(low=0, high=360),
+                "opponent_rel_speed": spaces.Box(low=-1 * max_rel, high=max_rel),
+                "nearest_mine_dist": spaces.Box(low=0, high=max_dist),
+                "nearest_mine_angle": spaces.Box(low=0, high=360),
             }
         )
         self.action_space = spaces.Box(low=-1, high=1, shape=(4,))
