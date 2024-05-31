@@ -25,8 +25,6 @@ class FuzzyController(KesslerController):
 
         # 上位k個の類似度のインデックスを取得
         top_k_indices = dif_index
-        print(x)
-        print(len(top_k_indices))
         weights = np.where(differences[top_k_indices] != 0, 1 / differences[top_k_indices], 1)
         weights[0] = 1
         # 正規化
@@ -74,21 +72,23 @@ class FuzzyController(KesslerController):
 
         return (max(0, (1 - np.abs(a - x) / b)))
 
-    def _get_obs(self, game_state):
+    def _get_obs(self, ship_state, game_state):
         # For now, we are assuming only one ship (ours)
-        ship = game_state['ships'][0]
-
+        ship = ship_state
 
         # handle asteroids
         asteroids = game_state['asteroids']
         asteroid_positions = np.array([asteroid['position'] for asteroid in asteroids])
+        print(ship['position'])
+        print(ship['heading'])
+        print(asteroid_positions)
         rho, phi, x, y = center_coords2(ship['position'], ship['heading'], asteroid_positions)
         asteroid_velocities = np.array([asteroid['velocity'] for asteroid in asteroids])
         asteroid_velocities_relative = asteroid_velocities - ship['velocity']
+
         asteroid_speed_relative = np.linalg.norm(asteroid_velocities_relative, axis=1)
         asteroid_info = np.stack([
             rho, phi, asteroid_speed_relative], axis=1)
-
         # Sort by first column (distance)
         asteroid_info = asteroid_info[
             asteroid_info[:, 0].argsort()]
@@ -101,9 +101,9 @@ class FuzzyController(KesslerController):
 
         # handle opponent ship
         if len(game_state['ships']) == 2:
-            ship_oppose = game_state['ships'][1]
-            opponent_position = ship_oppose['position']
-            opponent_velocity = ship_oppose['velocity']
+            ship_oppose = game_state['ships'][2 - ship_state['id']]
+            opponent_position = np.array([ship_oppose['position']])
+            opponent_velocity = np.array(ship_oppose['velocity'])
             opponent_velocity_relative = opponent_velocity - ship['velocity']
             opponent_speed_relative = np.linalg.norm(opponent_velocity_relative)
             rho_oppose, phi_oppose, x_oppose, y_oppose = center_coords2(ship['position'], ship['heading'], opponent_position)
@@ -142,7 +142,8 @@ class FuzzyController(KesslerController):
         return obs
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
-        obs = self._get_obs(game_state)
+        obs = self._get_obs(ship_state, game_state)
+        print(obs)
         X = np.concatenate(list(obs.values()))
         row_max = np.array([ 855.79438612, 1000.,         1000.,         1000.,         1000.,
   359.99939828,  359.999461  ,  359.99979122,  359.998528  ,  359.99953199,

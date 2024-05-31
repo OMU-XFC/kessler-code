@@ -13,7 +13,7 @@ threat_test_1 = Scenario(
     asteroid_states=[{"position": (0, 300), "angle": -90.0, "speed": 40},
                      {"position": (700, 300), "angle": 0.0, "speed": 0},
                      ],
-    ship_states=[{"position": (600, 300)}, ],
+    ship_states=[{"position": (600, 300), "mines_remaining": 10}, {"position": (250, 300)}],
     seed=0
 )
 
@@ -23,7 +23,7 @@ threat_test_2 = Scenario(
     asteroid_states=[{"position": (800, 300), "angle": 90.0, "speed": 40},
                      {"position": (100, 300), "angle": 0.0, "speed": 0},
                      ],
-    ship_states=[{"position": (200, 300)}, ],
+    ship_states=[{"position": (200, 300)}, {"position": (550, 300)}],
     seed=0
 )
 
@@ -149,7 +149,7 @@ wall_left_easy = Scenario(
                      {"position": (0, 400), "angle": -90.0, "speed": 60},
                      {"position": (0, 500), "angle": -90.0, "speed": 60},
                      ],
-    ship_states=[{"position": (400, 300)}, ],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -179,7 +179,7 @@ wall_top_easy = Scenario(
                      {"position": (600, 600), "angle": 180.0, "speed": 60},
                      {"position": (700, 600), "angle": 180.0, "speed": 60},
                      ],
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -216,7 +216,7 @@ ring_closing = Scenario(
     time_limit=time_limit,
     name="ring_closing",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -236,7 +236,7 @@ ring_static_left = Scenario(
     time_limit=time_limit,
     name="ring_static_left",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -255,7 +255,7 @@ ring_static_right = Scenario(
     time_limit=time_limit,
     name="ring_static_right",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -274,7 +274,7 @@ ring_static_top = Scenario(
     time_limit=time_limit,
     name="ring_static_top",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (700, 300)}],
     seed=0
 )
 
@@ -322,7 +322,7 @@ corridor_left = Scenario(
     time_limit=time_limit,
     name="corridor_left",
     asteroid_states=ast_states,
-    ship_states=[{"position": (700, 300)}],
+    ship_states=[{"position": (700, 300), "mines_remaining":10}, {"position":(400, 300)}],
     seed=0
 )
 
@@ -361,7 +361,7 @@ corridor_top = Scenario(
     time_limit=time_limit,
     name="corridor_top",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 100)}],
+    ship_states=[{"position": (400, 100), "mines_remaining":10}, {"position": (400, 400)}],
     seed=0
 )
 
@@ -400,7 +400,7 @@ moving_corridor_1 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_1",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "angle": 90}],
+    ship_states=[{"position": (400, 300), "angle": 90, "mines_remaining":10}, {"position": (800, 300), "angle": 90}],
     seed=0
 )
 
@@ -422,7 +422,7 @@ moving_corridor_2 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_2",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "angle": -90}],
+    ship_states=[{"position": (400, 300), "angle": -90, "mines_remaining":10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -492,7 +492,7 @@ moving_corridor_angled_1 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_angled_1",
     asteroid_states=ast_states,
-    ship_states=[{"position": (750, 50), "angle": 90}],
+    ship_states=[{"position": (750, 50), "angle": 90, "mines_remaining":10}, {"position": (450, 450), "angle": 90}],
     seed=0
 )
 
@@ -539,7 +539,7 @@ moving_corridor_curve_1 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_curve_1",
     asteroid_states=ast_states,
-    ship_states=[{"position": (550, 500), "angle": 90}],
+    ship_states=[{"position": (550, 500), "angle": 90, "mines_remaining":10}, {"position": (350, 500), "angle": 90}],
     seed=0
 )
 
@@ -589,7 +589,7 @@ wall_right_wrap_1 = Scenario(
                      {"position": (600, 500), "angle": -90.0, "speed": 80},
                      {"position": (600, 600), "angle": -90.0, "speed": 80},
                      ],
-    ship_states=[{"position": (750, 300),"mines_remaining": 30}],
+    ship_states=[{"position": (750, 300), "mines_remaining": 30}],
     seed=0
 )
 
@@ -604,7 +604,7 @@ wall_right_wrap_2 = Scenario(
                      {"position": (750, 500), "angle": -90.0, "speed": 80},
                      {"position": (750, 600), "angle": -90.0, "speed": 80},
                      ],
-    ship_states=[{"position": (50, 300)}],
+    ship_states=[{"position": (50, 300), "mines_remaining": 30}, {"position": (600, 300), "mines_remaining": 30}],
     seed=0
 )
 
@@ -626,7 +626,7 @@ wall_right_wrap_3 = Scenario(
                      {"position": (200, 500), "angle": -90.0, "speed": 0},
                      {"position": (200, 600), "angle": -90.0, "speed": 0},
                      ],
-    ship_states=[{"position": (750, 300)}],
+    ship_states=[{"position": (750, 300), "mines_remaining": 30}, {"position": (300, 300)}],
     seed=0
 )
 
@@ -648,7 +648,7 @@ wall_right_wrap_4 = Scenario(
                      {"position": (200, 500), "angle": -90.0, "speed": 0},
                      {"position": (200, 600), "angle": -90.0, "speed": 0},
                      ],
-    ship_states=[{"position": (50, 300)}],
+    ship_states=[{"position": (50, 300), "mines_remaining": 10}, {"position": (500, 300)}],
     seed=0
 )
 
@@ -664,7 +664,7 @@ wall_left_wrap_1 = Scenario(
                      {"position": (200, 500), "angle": 90.0, "speed": 80},
                      {"position": (200, 600), "angle": 90.0, "speed": 80},
                      ],
-    ship_states=[{"position": (50, 300)}],
+    ship_states=[{"position": (50, 300), "mines_remaining":10}, {"position": (350, 300)}],
     seed=0
 )
 
@@ -679,7 +679,7 @@ wall_left_wrap_2 = Scenario(
                      {"position": (50, 500), "angle": 90.0, "speed": 80},
                      {"position": (50, 600), "angle": 90.0, "speed": 80},
                      ],
-    ship_states=[{"position": (750, 300)}],
+    ship_states=[{"position": (750, 300)}, {"position": (750, 600)}],
     seed=0
 )
 
@@ -701,7 +701,7 @@ wall_left_wrap_3 = Scenario(
                      {"position": (600, 500), "angle": -90.0, "speed": 0},
                      {"position": (600, 600), "angle": -90.0, "speed": 0},
                      ],
-    ship_states=[{"position": (50, 300)}],
+    ship_states=[{"position": (50, 300), "mines_remaining": 10}, {"position": (350, 300)}],
     seed=0
 )
 
@@ -723,7 +723,7 @@ wall_left_wrap_4 = Scenario(
                      {"position": (600, 500), "angle": -90.0, "speed": 0},
                      {"position": (600, 600), "angle": -90.0, "speed": 0},
                      ],
-    ship_states=[{"position": (750, 300)}],
+    ship_states=[{"position": (750, 300), "mines_remaining": 10}, {"position": (350, 300)}],
     seed=0
 )
 
@@ -741,7 +741,7 @@ wall_top_wrap_1 = Scenario(
                      {"position": (700, 400), "angle": 0.0, "speed": 80},
                      {"position": (800, 400), "angle": 0.0, "speed": 80},
                      ],
-    ship_states=[{"position": (400, 550)}],
+    ship_states=[{"position": (400, 550), "mines_remaining":10},{"position": (200, 600), "mines_remaining":10}],
     seed=0
 )
 
@@ -758,7 +758,7 @@ wall_top_wrap_2 = Scenario(
                      {"position": (700, 400), "angle": 0.0, "speed": 80},
                      {"position": (800, 400), "angle": 0.0, "speed": 80},
                      ],
-    ship_states=[{"position": (400, 50)}],
+    ship_states=[{"position": (400, 50), "mines_remaining": 10}],
     seed=0
 )
 
@@ -934,7 +934,7 @@ scenario_big_box = Scenario(
                      {"position": (800, 500), "angle": 0.0, "speed": 0},
                      {"position": (800, 600), "angle": 0.0, "speed": 0},
                      ],
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (400, 600)}],
     seed=0
 )
 
@@ -962,7 +962,7 @@ scenario_small_box = Scenario(
                      {"position": (600, 400), "angle": 0.0, "speed": 0},
                      {"position": (600, 500), "angle": 0.0, "speed": 0},
                      ],
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -1033,7 +1033,7 @@ scenario_2_still_corridors = Scenario(
                      {"position": (450, 550), "angle": 0.0, "speed": 0, "size": 2},
                      {"position": (450, 600), "angle": 0.0, "speed": 0, "size": 2},
                      ],
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (800, 300)}],
     seed=0
 )
 
@@ -1072,9 +1072,6 @@ Scenario_half = [threat_test_1, threat_test_2, accuracy_test_1, accuracy_test_2,
                  moving_corridor_angled_1,
                  moving_corridor_curve_1, wall_left_wrap_1,
                  scenario_apocalypse_1, scenario_2_still_corridors]
-#Scenarios1 = [threat_test_1, wall_left_easy, ring_closing, corridor_top,accuracy_test_1]
-#Scenarios2 = [threat_test_2, accuracy_test_2, ring_static_left, moving_corridor_1, moving_corridor_curve_1]
-#Scenarios3 = [accuracy_test_3, moving_corridor_angled_1, wall_left_wrap_1, scenario_apocalypse_1, scenario_2_still_corridors]
 Scenarios1 = [threat_test_1, accuracy_test_1, wall_left_easy, ring_static_left,moving_corridor_angled_1]
 Scenarios2 = [wall_right_wrap_1, wall_bottom_wrap_1, corridor_right, moving_corridor_1, moving_corridor_curve_1]
 Scenarios3 = [ring_closing, corridor_top, wall_left_wrap_1, scenario_apocalypse_1, scenario_2_still_corridors]

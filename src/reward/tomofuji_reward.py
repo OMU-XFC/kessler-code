@@ -14,14 +14,18 @@ def tomofuji_reward(game_state, prev_state, obs):
     # collision detection by is_respawning status
     if not prev_ship['is_respawning'] and ship['is_respawning']:
         collision = True
+    reward = 0.1
 
     # compare the numbers of asteroids in the current and previous steps
     # and detect the asteroids that have been destroyed
     if (len(ast_list) == prev_astnum + 2 or len(ast_list) == prev_astnum - 1) and not collision:
         hit_ast = True
 
+    # When number of asteroids is highly increased, it's regarded as mine and give positive reward
+    if len(ast_list) > prev_astnum + 10 and not collision:
+        reward += 500
 
-    reward = 0.1
+
 
     if len(prev_bullet_list) < len(bullet_list) and not hit_ast:
         # check if fire a bullet, and give a negative reward to improve accuracy
@@ -41,7 +45,8 @@ def tomofuji_reward(game_state, prev_state, obs):
     if 355 <obs['asteroid_angle'][min] or obs['asteroid_angle'][min] < 5:
         reward += 20.0
 
-
+    if obs["nearest_mine_dist"] < 35:
+        reward -= 100.0
 
     if collision:
         reward -= 1000.0

@@ -3,9 +3,10 @@ import random
 
 import numpy as np
 from kesslergame import Scenario, KesslerGame, TrainerEnvironment
-from kesslergame.scenario_list import *
+from scenario_list import *
 
 from src.controller2023 import Controller
+from src.controller2024 import NewController
 from src.fuzzy_controller import FuzzyController
 
 # 隕石が2機体を囲むように，円状に並んで静止する
@@ -121,7 +122,7 @@ def cil_run():
 
         # Instantiate an instance of FuzzyAsteroidGame
         game = KesslerGame()
-        scenario_ship = wall_bottom_wrap_2
+        scenario_ship = threat_test_2
         new_gene = [-422.98248909, -128.46239109, 395.65025775, -339.31340805, -82.99984531,
                     157.18145777, 94.03193966, 74.20410544, -141.6155565, 66.7441948,
                     105.5832539, 136.26770441, 440.24368511, -32.15986455, -269.37155599,
@@ -139,7 +140,7 @@ def cil_run():
                       -160.12494679256298, 19.61048198975353, -49.94832516903231, -7.9531801264646225, -145.62142615430074,
                       -92.0482799920598, -179.1218562024806, -42.27985100533542, -105.54201848209276, -37.67742166580005]
 
-        controllers = [Controller(), Controller()]
+        controllers = [NewController(), NewController()]
         pre = time.perf_counter()
         score, perf_data = game.run(scenario=scenario_ship, controllers=controllers)
         print('Scenario eval time: ' + str(time.perf_counter() - pre))

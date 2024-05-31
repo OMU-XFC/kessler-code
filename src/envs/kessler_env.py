@@ -6,6 +6,8 @@ from typing import Dict, Tuple
 from collections import deque
 
 from src.center_coods2 import center_coords2
+from src.controller2023 import Controller
+from src.fuzzy_controller import FuzzyController
 from src.reward.stay_alive import stay_alive_reward
 from src.reward.tomofuji_reward import tomofuji_reward
 from src.scenario_list import *
@@ -44,7 +46,7 @@ class KesslerEnv(gym.Env):
         super().reset(seed=seed, options=options)
         rand = np.random.randint(0, len(Scenario_list))
         self.scenario = Scenario_list[rand]
-        self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller])
+        self.game_generator = self.kessler_game.run_step(scenario=self.scenario, controllers=[self.controller, Controller()])
         score, perf_list, game_state = next(self.game_generator)
         self.prev_state, self.current_state = None, game_state
 
@@ -99,8 +101,8 @@ def get_obs(game_state):
     # handle opponent ship
     if len(game_state['ships']) == 2:
         ship_oppose = game_state['ships'][1]
-        opponent_position = ship_oppose['position']
-        opponent_velocity = ship_oppose['velocity']
+        opponent_position = np.array([ship_oppose['position']])
+        opponent_velocity = np.array(ship_oppose['velocity'])
         opponent_velocity_relative = opponent_velocity - ship['velocity']
         opponent_speed_relative = np.linalg.norm(opponent_velocity_relative)
         rho_oppose, phi_oppose, x_oppose, y_oppose = center_coords2(ship['position'], ship['heading'],
