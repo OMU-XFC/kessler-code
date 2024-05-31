@@ -45,7 +45,8 @@ def tomofuji_reward(game_state, prev_state, obs):
     if 355 <obs['asteroid_angle'][min] or obs['asteroid_angle'][min] < 5:
         reward += 20.0
 
-    if obs["nearest_mine_dist"] < 35:
+    #50にしたのはmodel4
+    if obs["nearest_mine_dist"] < 50:
         reward -= 100.0
 
     if collision:
