@@ -216,7 +216,7 @@ ring_closing = Scenario(
     time_limit=time_limit,
     name="ring_closing",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (800, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}, ],
     seed=0
 )
 
@@ -274,7 +274,7 @@ ring_static_top = Scenario(
     time_limit=time_limit,
     name="ring_static_top",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "mines_remaining":10}, {"position": (700, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining":10},],
     seed=0
 )
 

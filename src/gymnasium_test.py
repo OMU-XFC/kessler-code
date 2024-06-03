@@ -1,7 +1,7 @@
 import os
 
 import gymnasium as gym
-from kesslergame.scenario_list import *
+from scenario_list import *
 from stable_baselines3.common.callbacks import EvalCallback, BaseCallback
 from stable_baselines3.common.env_checker import check_env
 from stable_baselines3 import A2C, PPO
@@ -14,7 +14,7 @@ from typing import Dict, Tuple
 import numpy as np
 
 from src.center_coods2 import center_coords2
-
+from src.reward.tomofuji_reward import tomofuji_reward
 
 
 class SaveModelCallback(BaseCallback):
@@ -29,7 +29,7 @@ class SaveModelCallback(BaseCallback):
 
     def _on_step(self) -> bool:
         if self.n_calls % self.save_freq == 0:
-            model_path = os.path.join(self.save_path, f'model4_{self.n_calls}.zip')
+            model_path = os.path.join(self.save_path, f'model7_{self.n_calls}.zip')
             self.model.save(model_path)
             if self.verbose > 0:
                 print(f'Model saved to {model_path}')
@@ -59,8 +59,7 @@ def run():
     kessler_game = KesslerGame()
 
     scenario = ring_closing
-    controller = SuperDummyController()
-    score, perf_list = kessler_game.run(scenario=scenario, controllers=[controller], stop_on_no_asteroids=True)
+    score, perf_list = kessler_game.run(scenario=scenario, controllers=[SuperDummyController(), SuperDummyController()], stop_on_no_asteroids=True)
 
 def run_all():
     kessler_game = TrainerEnvironment()
@@ -71,22 +70,23 @@ def run_all():
 
 class SuperDummyController(KesslerController):
     def __init__(self):
-        self.model = PPO.load("wcci-out/model1_70000000.zip")
-
+        self.model = PPO.load("wcci-out/model4_80000000.zip")
+        self.prev_state = None
     @property
     def name(self) -> str:
         return "Super Dummy"
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         obs = self._get_obs(game_state)
         action = self.model.predict(obs)
-        thrust, turn, fire  = list(action[0])
+        thrust, turn, fire, mine = list(action[0])
         fire_bullet = (fire >= 0.0)
-        if 1:
+        if 0:
             with open("inout/Scenarios_full12.txt", 'a') as f:
                 f.write(str(list(obs.values())))
                 f.write('\n')
                 f.write(f"[{thrust}, {turn}, {fire}]\n")
-        return thrust * THRUST_SCALE, turn * TURN_SCALE, fire_bullet, False
+
+        return thrust * THRUST_SCALE, turn * TURN_SCALE, fire_bullet, 0
 
     def _get_obs(self, game_state):
         # For now, we are assuming only one ship (ours)
@@ -113,25 +113,48 @@ class SuperDummyController(KesslerController):
             pad_shape = (padding_len, asteroid_info.shape[1])
             asteroid_info = np.concatenate([asteroid_info, np.empty(pad_shape)])
 
+        # handle opponent ship
+        if len(game_state['ships']) == 2:
+            ship_oppose = game_state['ships'][1]
+            opponent_position = np.array([ship_oppose['position']])
+            opponent_velocity = np.array(ship_oppose['velocity'])
+            opponent_velocity_relative = opponent_velocity - ship['velocity']
+            opponent_speed_relative = [np.linalg.norm(opponent_velocity_relative)]
+            rho_oppose, phi_oppose, x_oppose, y_oppose = center_coords2(ship['position'], ship['heading'],
+                                                                        opponent_position)
+        else:
+            rho_oppose, phi_oppose, opponent_speed_relative = [1000], [180], [0.0]
 
-
-
-
+        if len(game_state['mines']) > 0:
+            mine = game_state['mines']
+            # 一番近い地雷を取得
+            mine_positions = np.array([mine['position'] for mine in mine])
+            rho_mine, phi_mine, x_mine, y_mine = center_coords2(ship['position'], ship['heading'], mine_positions)
+            mine_info = np.stack([
+                rho_mine, phi_mine
+            ], axis=1)
+            mine_info = mine_info[
+                mine_info[:, 0].argsort()]
+            nearest_mine = [[mine_info[0][0]], [mine_info[0][1]]]
+        else:
+            nearest_mine = [[1000], [180]]
 
         obs = {
             "asteroid_dist": asteroid_info[:N_CLOSEST_ASTEROIDS, 0],
             "asteroid_angle": asteroid_info[:N_CLOSEST_ASTEROIDS, 1],
             "asteroid_rel_speed": asteroid_info[:N_CLOSEST_ASTEROIDS, 2],
-
+            "opponent_dist": rho_oppose,
+            "opponent_angle": phi_oppose,
+            "opponent_rel_speed": opponent_speed_relative,
+            "nearest_mine_dist": nearest_mine[0],
+            "nearest_mine_angle": nearest_mine[1]
         }
-
         return obs
 
 
 if __name__ == '__main__':
-    #run()
+    run()
     #run_all()
-    #print("full12 done")
-    train()
+    #train()
 
 

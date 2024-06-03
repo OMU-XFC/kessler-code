@@ -49,6 +49,8 @@ class NewController(KesslerController):
             else:
                 return np.array([0.0, 0.0, 0.0, 0.0, 1.0])
 
+
+
         def membership2(angle):
             angle = abs(angle)
             if angle <= center_angle:

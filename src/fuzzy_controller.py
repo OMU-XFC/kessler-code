@@ -7,6 +7,7 @@ from src.center_coods2 import center_coords2
 from src.rule import fitnesses, fits, fitness
 from src.rulesets import *
 from src.inout.aaa import *
+from src.inout.clustered_XY11 import X_Clustered11, Y_Clustered11
 
 
 class FuzzyController(KesslerController):
@@ -36,8 +37,8 @@ class FuzzyController(KesslerController):
 
     def switch(self, x):
 
-        rule_array = X12
-        out_array = np.array(Y12)
+        rule_array = np.array(X_Clustered11)
+        out_array = np.array(Y_Clustered11)
 
 
         out = self.weighted_average_similar_outs(rule_array, out_array, x)
@@ -132,11 +133,11 @@ class FuzzyController(KesslerController):
             "asteroid_dist": asteroid_info[:N_CLOSEST_ASTEROIDS, 0],
             "asteroid_angle": asteroid_info[:N_CLOSEST_ASTEROIDS, 1],
             "asteroid_rel_speed": asteroid_info[:N_CLOSEST_ASTEROIDS, 2],
-            "opponent_dist": rho_oppose,
-            "opponent_angle": phi_oppose,
-            "opponent_rel_speed": opponent_speed_relative,
-            "nearest_mine_dist": nearest_mine[0],
-            "nearest_mine_angle": nearest_mine[1]
+            #   "opponent_dist": rho_oppose,
+            #   "opponent_angle": phi_oppose,
+            #   "opponent_rel_speed": opponent_speed_relative,
+            #   "nearest_mine_dist": nearest_mine[0],
+            #   "nearest_mine_angle": nearest_mine[1]
         }
 
         return obs

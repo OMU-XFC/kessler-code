@@ -12,7 +12,7 @@ def tomofuji_reward(game_state, prev_state, obs):
     collision = False
 
     # collision detection by is_respawning status
-    if not prev_ship['is_respawning'] and ship['is_respawning']:
+    if ship['lives_remaining'] == prev_ship['lives_remaining'] - 1:
         collision = True
     reward = 0.1
 
@@ -35,20 +35,16 @@ def tomofuji_reward(game_state, prev_state, obs):
         reward += 1.0
 
     min = np.argmin(obs['asteroid_dist'])
-
     if obs['asteroid_dist'][min] < 35:
         reward -= 100.0
-
     elif obs['asteroid_dist'][min] < 75:
         reward -= 50.0
-
     if 355 <obs['asteroid_angle'][min] or obs['asteroid_angle'][min] < 5:
         reward += 20.0
-
-    #50にしたのはmodel4
+    #< 50でreward-=100にしたのはmodel4
+    #model6ではreward-=200にした
     if obs["nearest_mine_dist"] < 50:
-        reward -= 100.0
-
+        reward -= 200.0
     if collision:
         reward -= 1000.0
 

@@ -10,6 +10,7 @@ from kesslergame import TrainerEnvironment
 
 from src.fuzzy_controller import FuzzyController
 from inout.clustered_XY import X_Clustered, Y_Clustered
+from inout.Scenarios_full11_cluster import L
 from src.scenario_list import Scenario_full
 
 
@@ -41,7 +42,7 @@ def weighted_average_similar_outs(rule_array, out_array, x):
 
     return weighted_average_out
 
-def switch(x):
+def switch_direct(x):
     rule_array = np.array(X_Clustered)
     out_array = np.array(Y_Clustered)
     x = np.array(x)
@@ -117,7 +118,7 @@ def direct_actions_from_obs(obs):
     #X = (X - row_min) / (row_max - row_min)
     #fitt = fitness(X, 5)
     #maxes = [np.argmax(sublist) for sublist in fitt]
-    aa = switch(X)
+    aa = switch_direct(X)
     thrust, turn, fire = aa
     fire_bullet = (fire >= 0.0)
     # with open("inout/out_full22_fuzzcon.txt", 'a') as f:
@@ -159,29 +160,29 @@ if __name__ == "__main__":
         elif len(values) == 3:  # 要素数が2の場合はYに格納
             Y.append([float(val.strip()) for val in values])
 
-    # XとYをNumpy配列に変換
-    X = np.array(X)
-    Y = np.array(Y)
-
-    L = []
-    #NNの入力からファジィ制御したものの出力
-    file_path = 'inout/Scenarios_full11_cluster.txt'
-
-    for x in X:
-        line = direct_actions_from_obs(x)
-        L.append(line)
+    ## XとYをNumpy配列に変換
+    #X = np.array(X)
+    #Y = np.array(Y)
+    #print(f"{file_path} loaded")
+    #L = []
+    ##NNの入力からファジィ制御したものの出力
+    file_path = 'inout/Scenarios_full11_cluster.py'
+    #i = 0
+    #for x in X:
+    #    print(i)
+    #    line = direct_actions_from_obs(x)
+    #    L.append(line)
+    #    i += 1
     #ファジィ？による出力
+
     L = np.array(L)
+    Y = np.array(Y)
+    with open(file_path, 'a') as f:
+        #f.write(f"X={X}\n")
+        #f.write(f"Y={Y}\n")
+        #f.write(f"L={L}\n")
+        f.write(f"L-Y={list(L-Y)}\n")
 
-    with open(file_path, 'w') as f:
-        f.write(f"X={X}\n")
-        f.write('\n')
-        f.write(f"L={L}")
-
-    print(X)
-    print(Y)
-    print(L)
-    print((Y-L))
 
 
 
