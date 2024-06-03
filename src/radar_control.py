@@ -77,7 +77,7 @@ def main():
     )
 
     #train(scenario=s, radar_zones=zones, bumper=bumper, forecast_frames=30, name=name)
-    run(s, '../out/SimpleScenario/bookmark_0')
+    run(s, 'out/expApril3_0_0/bookmark_0')
 
 def run_benchmark():
     controller = SuperDummyController(model_name='out/10_GUNS_OFF_1S_FORECAST/9')

@@ -1099,3 +1099,229 @@ The nearest asteroid is 182.15 units away. Activating NAVI mode. Winning fuzzy r
 The nearest asteroid is 184.17 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
 The nearest asteroid is 186.65 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS HIGH AND FAR-LEFT IS CLEAR AND FAR-BEHIND IS HIGH AND FAR-RIGHT IS LOW AND MIDDLE-FRONT IS MEDIUM-HIGH AND MIDDLE-BEHIND IS CLEAR AND MIDDLE-RIGHT IS CLEAR AND NEAR-FRONT IS HIGH AND NEAR-LEFT IS HIGH AND NEAR-BEHIND IS HIGH AND NEAR-RIGHT IS MEDIUM-HIGH THEN THRUST IS FULL-FORWARD AND TURN IS HALF-RIGHT
 The nearest asteroid is 189.62 units away. Activating NAVI mode. Winning fuzzy rule: IF FAR-FRONT IS DANGEROUS AND FAR-LEFT IS LOW AND FAR-BEHIND IS MEDIUM-HIGH AND FAR-RIGHT IS DANGEROUS AND MIDDLE-FRONT IS LOW AND MIDDLE-LEFT IS CLEAR AND MIDDLE-BEHIND IS HIGH AND MIDDLE-RIGHT IS HIGH AND NEAR-LEFT IS DANGEROUS AND NEAR-BEHIND IS CLEAR AND NEAR-RIGHT IS CLEAR THEN THRUST IS FULL-FORWARD AND TURN IS HALF-LEFT
+The nearest asteroid is 377.92 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target. Locked onto coordinates (45.87, 582.31). Aiming... 
+The nearest asteroid is 378.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 378.89 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 379.37 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 379.85 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 380.34 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 380.82 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 381.30 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 381.79 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 382.27 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 382.75 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 383.24 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 383.72 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 384.21 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 384.69 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 385.18 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 385.66 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 386.14 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 386.63 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 387.11 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 387.60 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 388.08 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 388.57 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 389.06 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 389.54 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 390.03 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 390.51 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 391.00 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 391.48 units away. Activating SNIPER mode. Finished aiming. Fire!!
+The nearest asteroid is 391.97 units away. Activating SNIPER mode. Locked onto coordinates (36.12, 594.27). Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 392.46 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 392.94 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 393.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 393.92 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 394.40 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 394.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 395.38 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 395.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 396.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 396.84 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 397.33 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 397.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 398.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 398.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 399.20 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 399.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 400.09 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 400.54 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 400.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 401.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 401.89 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 402.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 402.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 403.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 403.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 404.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 404.59 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 405.04 units away. Activating SNIPER mode. Locked onto coordinates (32.07, 611.23). Aiming... 
+The nearest asteroid is 464.81 units away. Activating SNIPER mode. Ship has stopped moving. Acquiring target. Locked onto coordinates (898.82, 336.63). Aiming... 
+The nearest asteroid is 465.28 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 465.76 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.23 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 466.70 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.18 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.65 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 468.13 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 468.60 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 469.08 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 469.55 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 470.03 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 470.50 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 470.98 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 471.45 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 471.93 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 472.40 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 472.87 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 473.35 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 473.82 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 474.30 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 474.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 475.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 475.72 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 476.20 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 476.67 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 477.15 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 477.62 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 478.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 478.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 479.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 479.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 480.00 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 480.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 480.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 479.70 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 479.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 478.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 478.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 478.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 477.62 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 477.21 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 476.80 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 476.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 475.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 475.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 475.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 474.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 474.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 473.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 473.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 473.12 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 472.72 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 472.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 471.91 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 471.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 471.11 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 470.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 470.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 469.91 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 469.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 469.11 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 468.72 units away. Activating SNIPER mode. Locked onto coordinates (817.31, 256.33). Aiming... 
+The nearest asteroid is 468.32 units away. Activating SNIPER mode. Aiming... 
+The nearest asteroid is 467.93 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 467.53 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 467.14 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 466.75 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 466.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 465.96 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 465.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 465.18 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 464.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 464.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 464.02 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 463.63 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 463.25 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 462.86 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 462.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 462.10 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 461.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 461.33 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 460.95 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 460.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 460.19 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 459.81 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 459.44 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 459.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 458.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 458.31 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.94 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.56 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 457.19 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 456.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 456.45 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 456.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 455.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 455.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 454.98 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 454.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 454.24 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.88 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 453.15 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 452.79 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 452.43 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 452.07 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 451.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 451.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 450.99 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 450.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 450.28 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 449.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 449.57 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 449.22 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 448.17 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.47 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 447.12 units away. Activating SNIPER mode. Fire!!
+The nearest asteroid is 446.77 units away. Activating SNIPER mode. Locked onto coordinates (787.48, 227.76). Aiming... 
+The nearest asteroid is 446.43 units away. Activating SNIPER mode. Finished aiming. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 446.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 445.74 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 445.40 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 445.05 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 444.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 444.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 444.03 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.69 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.36 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 443.02 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 442.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 442.35 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 442.01 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 441.68 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 441.23 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 440.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 440.32 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 439.87 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 439.41 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 438.96 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 438.51 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 438.06 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 437.61 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 437.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 436.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 436.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 435.82 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 435.37 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 434.93 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 434.48 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 434.04 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 433.60 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 433.16 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 432.71 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 432.27 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 431.83 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 431.39 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 430.95 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 430.52 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 430.08 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 429.64 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 429.21 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 428.77 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 428.34 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
+The nearest asteroid is 427.90 units away. Activating SNIPER mode. Standby for asteroid to move into locked coordinates.
