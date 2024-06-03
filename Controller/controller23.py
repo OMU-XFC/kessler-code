@@ -3,12 +3,12 @@ from typing import Tuple, Dict
 from kesslergame import KesslerController
 import numpy as np
 from kesslergame import Ship
-
+from Controller.lib import parse_game_state
 from Controller.func import *
 
 
 # 距離5分割
-class NewController(KesslerController):
+class FuzzyController(KesslerController):
     """
          A ship controller class for Kessler. This can be inherited to create custom controllers that can be passed to the
         game to operate within scenarios. A valid controller contains an actions method that takes in a ship object and ass
@@ -17,9 +17,9 @@ class NewController(KesslerController):
 
     def __init__(self):
         genes2 = [-422.56833678, -128.5440438, 390.55000786, -389.1460838, -79.66763919,
-                  157.80320246, 94.08457887, 73.67425189, 129.10263867, 126.69284636,
+                  157.80320246, 50.08457887, 73.67425189, 129.10263867, 115.69284636,
                   108.57530471, 161.21374993, 440.06088036, -32.43618814, -269.25471835,
-                  23.97717829, 179.54120818, 180, 11.01848299, 105.48515518,
+                  93.97717829, 179.54120818, 180, 11.01848299, 105.48515518,
                   124.83245825, 60.12989947, 84.42780692, 155.87859715, 12.61680382,
                   74.824144, 145.83796102, -5.56917356, 79.90114877, 170.21185764, ]
         gene = [-164.53175401560333, 0.11381500132402, 99.55962719106978, 652.0695605148196, 958.2536948627446,
@@ -109,18 +109,16 @@ class NewController(KesslerController):
         center_x = 500
         center_y = 400
 
-    def actions(self, ownship: Dict, input_data: Dict[str, Tuple]) -> Tuple[float, float, bool]:
+    def action_with_explain(self, ownship: Dict, input_data: Dict[str, Tuple]) -> Tuple[float, float, bool]:
         # timeout(input_data)
         # 隕石と機体の位置関係のセクション
         ast_list = np.array(input_data["asteroids"])
         # (x,y)で表す，機体からの距離
         dist_xylist = [np.array(ownship['position']) - np.array(ast['position']) for ast in ast_list]
         dist_avoid_list = dist_xylist.copy()
-        dist_list1 = [math.sqrt(xy[0] ** 2 + xy[1] ** 2) for xy in dist_xylist]
 
-        # よける部分に関しては画面端のことを考える，弾丸はすり抜けないから狙撃に関しては考えない
-        sidefromcenter = 500 - ownship['position'][0]
-        below_center = 400 - ownship['position'][1]
+
+
         for xy in dist_avoid_list:
             if xy[0] > 500:
                 xy[0] -= 1000
@@ -150,7 +148,14 @@ class NewController(KesslerController):
 
         angdiff_front = min(aalist, key=abs)
         angdiff = aalist[0]
-        fire_bullet = abs(angdiff_front) < 15 and min(dist_list1) < 400
+
+
+        state = parse_game_state(ownship, input_data)
+
+        shooting_threshold = 13
+        asteroid_angles = np.degrees(state['asteroids']['polar_positions'][:, 1])
+        fire_bullet = np.logical_or(np.any(asteroid_angles < shooting_threshold),
+                                     np.any(asteroid_angles > 360 - shooting_threshold))
         avoidance = np.min(dist_avoid_list)
 
         if len(input_data['ships']) >= 2:
@@ -181,7 +186,8 @@ class NewController(KesslerController):
         elif turn_rate < ownship['turn_rate_range'][0]:
             turn_rate = ownship['turn_rate_range'][0]
         # 前後，回転，射撃のタプルをリターンする
-        return thrust, turn_rate, fire_bullet, False
+        rand = np.random.rand()
+        return thrust, turn_rate, fire_bullet, 0, ""
 
     @property
     def name(self) -> str:

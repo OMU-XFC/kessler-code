@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def center_coords(ship_position, ship_heading, asteroid_positions, map_size):
     """
     Given a ship's position and heading, find the polar coordinates of all asteroids relative to the ship.
@@ -19,16 +20,17 @@ def center_coords(ship_position, ship_heading, asteroid_positions, map_size):
     # I'm not confident this is the most efficient solution! But seems to work.
     # Move the ship to the center of the map
     center = map_size / 2
+
     offset = center - ship_position
-    ship_position += offset
+
+    # avoid rewrite ship_position on lib.py and use ship_pos
+    ship_pos = ship_position + offset
 
     # Offset everything by the same amount, and adjust anything that's now "out of bounds"
     centered_asteroids = np.mod(asteroid_positions + offset, map_size)
-
     # The ship is in the middle now, so the shortest path from ship <--> asteroid can never wrap around edges
     # Get the coordinates of asteroids relative to the ship (i.e. the center)
-    centered_asteroids -= ship_position
-
+    centered_asteroids -= ship_pos
     rho, phi = c2p(centered_asteroids[:, 0], centered_asteroids[:, 1])
 
     # Rotate everything relative to the ship's heading, keep in range [0, 2pi)
@@ -37,7 +39,13 @@ def center_coords(ship_position, ship_heading, asteroid_positions, map_size):
 
     return np.stack([rho, phi], axis=-1)
 
+
+
 def c2p(x, y):
+    z = x + 1j * y
+    return np.abs(z), np.angle(z)
+
+def c2p2(x, y):
     z = x + 1j * y
     return np.abs(z), np.angle(z)
 

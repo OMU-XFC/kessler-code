@@ -1,20 +1,16 @@
 import os
 
-import gymnasium as gym
 from scenario_list import *
-from stable_baselines3.common.callbacks import EvalCallback, BaseCallback
-from stable_baselines3.common.env_checker import check_env
-from stable_baselines3 import A2C, PPO
+from stable_baselines3.common.callbacks import BaseCallback
+from stable_baselines3 import PPO
 from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3.common.monitor import Monitor
-from stable_baselines3.common.env_util import make_vec_env
 from envs import KesslerEnv
-from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
+from kesslergame import KesslerGame, TrainerEnvironment, KesslerController
 from typing import Dict, Tuple
 import numpy as np
 
 from src.center_coods2 import center_coords2
-from src.reward.tomofuji_reward import tomofuji_reward
 
 
 class SaveModelCallback(BaseCallback):
@@ -44,7 +40,7 @@ def train():
 
     model = PPO("MultiInputPolicy", kessler_env)
 
-    eval_callback = SaveModelCallback(save_freq=10000000, save_path="wcci-out", verbose=1)
+    eval_callback = SaveModelCallback(save_freq=10000000, save_path="../wcci-out", verbose=1)
 
     model.learn(1000000000, callback=eval_callback)
 
@@ -70,7 +66,7 @@ def run_all():
 
 class SuperDummyController(KesslerController):
     def __init__(self):
-        self.model = PPO.load("wcci-out/model4_80000000.zip")
+        self.model = PPO.load("../wcci-out/model4_80000000.zip")
         self.prev_state = None
     @property
     def name(self) -> str:
@@ -81,7 +77,7 @@ class SuperDummyController(KesslerController):
         thrust, turn, fire, mine = list(action[0])
         fire_bullet = (fire >= 0.0)
         if 0:
-            with open("inout/Scenarios_full12.txt", 'a') as f:
+            with open("../inout/Scenarios_full12.txt", 'a') as f:
                 f.write(str(list(obs.values())))
                 f.write('\n')
                 f.write(f"[{thrust}, {turn}, {fire}]\n")

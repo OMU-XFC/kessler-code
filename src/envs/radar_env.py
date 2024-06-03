@@ -1,10 +1,10 @@
 import numpy as np
 import gymnasium as gym
 from gymnasium import spaces
-from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
+from kesslergame import TrainerEnvironment, KesslerController
 from typing import Dict, Tuple
 from collections import deque
-from src.center_coords import center_coords
+from Controller.center_coords import center_coords
 
 THRUST_SCALE, TURN_SCALE = 480.0, 180.0
 SHIP_MAX_SPEED = 240

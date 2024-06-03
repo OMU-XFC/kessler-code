@@ -43,7 +43,7 @@ threat_test_4 = Scenario(
     asteroid_states=[{"position": (400, 600), "angle": 180.0, "speed": 40},
                      {"position": (400, 50), "angle": 0.0, "speed": 0},
                      ],
-    ship_states=[{"position": (400, 150)}, ],
+    ship_states=[{"position": (400, 150)}, {"position": (400, 500)}],
     seed=0
 )
 
@@ -117,7 +117,7 @@ accuracy_test_8 = Scenario(
     name="accuracy_test_8",
     asteroid_states=[{"position": (400, 500), "angle": 180.0, "speed": 120, "size": 1},
                      ],
-    ship_states=[{"position": (400, 100), "angle": -90.0}, ],
+    ship_states=[{"position": (400, 100), "angle": -90.0, 'mines_remaining': 10}, ],
     seed=0
 )
 
@@ -216,7 +216,7 @@ ring_closing = Scenario(
     time_limit=time_limit,
     name="ring_closing",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "mines_remaining": 10}, ],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}, {'position': (600, 300)}],
     seed=0
 )
 
@@ -236,7 +236,7 @@ ring_static_left = Scenario(
     time_limit=time_limit,
     name="ring_static_left",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "mines_remaining": 10}, {"position": (800, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining": 1},],
     seed=0
 )
 
@@ -274,7 +274,7 @@ ring_static_top = Scenario(
     time_limit=time_limit,
     name="ring_static_top",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "mines_remaining":10},],
+    ship_states=[{"position": (400, 300), "mines_remaining":2},{"position": (400, 600), 'mines_remaining': 10}],
     seed=0
 )
 
@@ -293,7 +293,7 @@ ring_static_bottom = Scenario(
     time_limit=time_limit,
     name="ring_static_bottom",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300)}],
+    ship_states=[{"position": (400, 300), "mines_remaining": 10}],
     seed=0
 )
 # ---------------------------------------------------------------------------------------------------------------------#
@@ -445,7 +445,7 @@ moving_corridor_3 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_3",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "angle": 0}],
+    ship_states=[{"position": (400, 300), "angle": 0}, {"position": (400, 600)}],
     seed=0
 )
 
@@ -468,7 +468,7 @@ moving_corridor_4 = Scenario(
     time_limit=time_limit,
     name="moving_corridor_4",
     asteroid_states=ast_states,
-    ship_states=[{"position": (400, 300), "angle": 180}],
+    ship_states=[{"position": (400, 300), "angle": 180}, {"position": (400, 600)}],
     seed=0
 )
 

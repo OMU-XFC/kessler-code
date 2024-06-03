@@ -1,14 +1,11 @@
-import numpy as np
 import gymnasium as gym
 from gymnasium import spaces
-from kesslergame import KesslerGame, Scenario, TrainerEnvironment, KesslerController, StopReason
+from kesslergame import TrainerEnvironment, KesslerController
 from typing import Dict, Tuple
 from collections import deque
 
 from src.center_coods2 import center_coords2
 from src.controller2023 import Controller
-from src.fuzzy_controller import FuzzyController
-from src.reward.stay_alive import stay_alive_reward
 from src.reward.tomofuji_reward import tomofuji_reward
 from src.scenario_list import *
 

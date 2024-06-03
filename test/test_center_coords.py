@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 from numpy.testing import assert_allclose
-from src.center_coords import center_coords
+from Controller.center_coords import center_coords
 
 
 class TestCenterCoords(unittest.TestCase):

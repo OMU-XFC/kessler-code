@@ -4,9 +4,7 @@ import numpy as np
 from kesslergame import KesslerController
 
 from src.center_coods2 import center_coords2
-from src.rule import fitnesses, fits, fitness
 from src.rulesets import *
-from src.inout.aaa import *
 from src.inout.clustered_XY11 import X_Clustered11, Y_Clustered11
 
 
