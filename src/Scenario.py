@@ -103,7 +103,7 @@ def cil_run():
 
         # Instantiate an instance of FuzzyAsteroidGame
         game = KesslerGame()
-        scenario_ship = accuracy_test_6
+        scenario_ship = ring_static_bottom
         new_gene = [-422.98248909, -128.46239109, 415.65025775, -339.31340805, -82.99984531,
                     157.18145777, 94.03193966, 74.20410544, -141.6155565, 66.7441948,
                     105.5832539, 136.26770441, 440.24368511, -32.15986455, -269.37155599,

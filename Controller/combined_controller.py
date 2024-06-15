@@ -6,13 +6,14 @@ from kesslergame import KesslerGame, KesslerController, Scenario
 from Controller.controller23 import FuzzyController
 from Controller.lib import parse_game_state
 from Controller.roomba_controller import RoombaController
+from Controller.sniper_controller import SniperController
 
 
 class CombinedController(KesslerController):
     def __init__(self):
         self.roomba = RoombaController()
         self.navi = FuzzyController()
-        self.sniper = FuzzyController()
+        self.sniper = SniperController()
 
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         state = parse_game_state(ship_state, game_state)
@@ -25,7 +26,7 @@ class CombinedController(KesslerController):
         if nearest_asteroid_dist < 100 or nearest_mine_dist < 100:
             active = 'ROOMBA'
             thrust, turn, fire, mine, explanation = self.roomba.action_with_explain(ship_state, game_state)
-        elif nearest_asteroid_dist < 500:
+        elif nearest_asteroid_dist < 400:
             active = 'NAVI'
             thrust, turn, fire, mine, explanation = self.navi.action_with_explain(ship_state, game_state)
         else:
