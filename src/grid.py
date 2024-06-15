@@ -9,8 +9,6 @@ from kesslergame import KesslerGame, GraphicsType, Scenario
 from kesslergame import TrainerEnvironment
 
 from src.fuzzy_controller import FuzzyController
-from inout.clustered_XY import X_Clustered, Y_Clustered
-from inout.Scenarios_full11_cluster import L
 from src.scenario_list import Scenario_full
 
 

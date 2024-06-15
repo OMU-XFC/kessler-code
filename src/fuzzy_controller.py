@@ -3,9 +3,8 @@ from typing import Dict, Tuple
 import numpy as np
 from kesslergame import KesslerController
 
-from src.center_coods2 import center_coords2
-from src.rulesets import *
-from src.inout.clustered_XY11 import X_Clustered11, Y_Clustered11
+from center_coods2 import center_coords2
+from inout.clustered_XY11 import X_Clustered11, Y_Clustered11
 
 
 class FuzzyController(KesslerController):

@@ -109,14 +109,13 @@ class FuzzyController(KesslerController):
         center_x = 500
         center_y = 400
 
-    def action_with_explain(self, ownship: Dict, input_data: Dict[str, Tuple]) -> Tuple[float, float, bool]:
+    def action_with_explain(self, ownship: Dict, input_data: Dict[str, Tuple]) -> Tuple[float, float, bool, bool, str]:
         # timeout(input_data)
         # 隕石と機体の位置関係のセクション
         ast_list = np.array(input_data["asteroids"])
         # (x,y)で表す，機体からの距離
         dist_xylist = [np.array(ownship['position']) - np.array(ast['position']) for ast in ast_list]
         dist_avoid_list = dist_xylist.copy()
-
 
 
         for xy in dist_avoid_list:
@@ -134,7 +133,6 @@ class FuzzyController(KesslerController):
         sorteddict = ast_list[sorted2_idx]
         # ここから考えるのは近傍5つの隕石
         search_list = sorteddict[0:5]
-        search_dist = np.array([math.dist(ownship['position'], ast['position']) for ast in search_list])
         angle_dist = [np.array(ast['position']) - np.array(ownship['position']) for ast in search_list]
         angle_dist = [angle360(math.degrees((np.arctan2(near_ang[1], near_ang[0])))) - ownship['heading'] for near_ang
                       in angle_dist]
@@ -146,7 +144,6 @@ class FuzzyController(KesslerController):
                 ang += 360
             aalist.append(ang)
 
-        angdiff_front = min(aalist, key=abs)
         angdiff = aalist[0]
 
 
@@ -156,6 +153,8 @@ class FuzzyController(KesslerController):
         asteroid_angles = np.degrees(state['asteroids']['polar_positions'][:, 1])
         fire_bullet = np.logical_or(np.any(asteroid_angles < shooting_threshold),
                                      np.any(asteroid_angles > 360 - shooting_threshold))
+        if np.min(dist_avoid_list) > 300 :
+            fire_bullet = False
         avoidance = np.min(dist_avoid_list)
 
         if len(input_data['ships']) >= 2:
@@ -173,14 +172,22 @@ class FuzzyController(KesslerController):
 
         thrust = rule[0]
         turn_rate = rule[1] * np.sign(angdiff)
-        if ownship["speed"] >= 0:
-            self.str_move = "Moving forward"
-        else:
-            self.str_move = "Moving backwards"
+        no_mine = len(input_data['mines']) == 0
+
+        mine = False
+
+        if np.abs(thrust) > 360 and no_mine:
+            mine = True
+
+
         if thrust > ownship['thrust_range'][1]:
             thrust = ownship['thrust_range'][1]
+            if no_mine:
+                mine = True
         elif thrust < ownship['thrust_range'][0]:
             thrust = ownship['thrust_range'][0]
+            if no_mine:
+                mine = True
         if turn_rate > ownship['turn_rate_range'][1]:
             turn_rate = ownship['turn_rate_range'][1]
         elif turn_rate < ownship['turn_rate_range'][0]:

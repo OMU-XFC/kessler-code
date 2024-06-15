@@ -17,6 +17,7 @@ class CombinedController(KesslerController):
     def actions(self, ship_state: Dict, game_state: Dict) -> Tuple[float, float, bool, bool]:
         state = parse_game_state(ship_state, game_state)
         nearest_asteroid_dist = np.min(state['asteroids']['polar_positions'][:, 0])
+
         if len(state['mines']['polar_positions']) > 0:
             nearest_mine_dist = np.min(state['mines']['polar_positions'][:, 0])
         else:
@@ -24,13 +25,12 @@ class CombinedController(KesslerController):
         if nearest_asteroid_dist < 100 or nearest_mine_dist < 100:
             active = 'ROOMBA'
             thrust, turn, fire, mine, explanation = self.roomba.action_with_explain(ship_state, game_state)
-        elif nearest_asteroid_dist < 200:
+        elif nearest_asteroid_dist < 500:
             active = 'NAVI'
             thrust, turn, fire, mine, explanation = self.navi.action_with_explain(ship_state, game_state)
         else:
             active = 'SNIPER'
             thrust, turn, fire, mine, explanation = self.sniper.action_with_explain(ship_state, game_state)
-
         #with open('../out/omu_explanation_log.txt', 'a', encoding='UTF-8') as f:
         #    f.write(my_explanation)
         #    f.write('\n')
